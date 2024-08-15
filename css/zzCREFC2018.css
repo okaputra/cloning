@@ -1,0 +1,1553 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i);
+@import url(ionicons.min.css);
+@import url(font-awesome.min.css);
+@import url(animate.min.css);
+
+#ctl01_Primary_NavMenu span.rmText {
+    max-width: 100%;
+    overflow: hidden;
+}
+.newsCards .panel-body{padding:0;}
+
+.newsCards .TaggedListPanel {padding-top:20px;    margin: 0 -15px;}
+.rotatingNoticesBox {
+    background: #007794;
+    max-width: 100vw;
+    color: white;
+}
+.row {
+
+    max-width: calc(100vw - 30px);
+}
+.row.blueBackground, .row.greenBackground, .row.tealBackground {
+    left: calc(-50vw + 50% + 30px); position:relative;
+}
+.featuredEventSingle .pagePanelGraphic {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.horizontalCards .newsPhoto {
+    width: 20%;
+    float: left;
+    background-position: top center;
+    margin: 0 30px 0 0;
+    background-repeat: no-repeat;
+}
+
+.horizontalCards .newsCard {
+    overflow: hidden;
+}
+.floatRight {float:right;}
+.floatLeft {float:left;}
+.rotatingNoticesBox a, .rotatingNoticesBox a:visited,.rotatingNoticesBox a:hover {
+text-decoration:underline;
+    color: white;
+}
+.newsCard {position:relative; margin-bottom:30px;
+    border: 1px solid #eee;
+    padding: 15px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+.newsPhoto {overflow:hidden;
+    height: 250px;
+    position: relative;
+    margin: -15px;
+    margin-bottom: 15px;
+}
+
+.horizontalCards .newsPhoto {
+height: 150px;}
+.horizontalCards .newsCard {
+    overflow: hidden;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    border-radius: 0; margin-bottom:15px;
+}
+.newsTitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+
+.newsDescription {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.newsPublicationDate {
+    font-size: 12px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.rotatingNotices {
+    max-width: 1200px;
+    margin: auto;
+}
+.newsLink a {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-indent: -10000px;
+}
+.newsTitle {
+    color: #004894; transition: ease-in-out .3s all;
+}
+.newsCard:hover .newsTitle {transition: ease-in-out .3s all;
+    color: #007794;
+}
+
+.contactBlock {
+    background: #eee;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    border-top: #007794 4px solid;
+    margin: 20px 0 20px 0;
+}
+#MainBody{-webkit-overflow-scrolling:touch}
+div#ctl00_TemplateBody_DocumentLoader_UploadPanel {
+    transform: scale(.75);
+}
+#MainBody.crefcMain {visibility:hidden;}
+#MainBody.crefcMain.makeVisible {visibility:visible;max-width: 100vw;
+    overflow-x: hidden;}
+
+div[id$="_Panel_NewsImageCaption"], div[id$="_Panel_NewsImageCaption2"], div[id$="_Panel_NewsImageCaption3"] {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+div[id*="_Panel_PullQuoteOptional"] {
+    padding: 20px 0;
+    font-size: 22px;
+    font-style: italic;
+    border-top: 2px solid #007794;
+    border-bottom: 2px solid #007794;
+    text-align: justify;
+    font-weight: 300;
+}
+div[id$="_Panel_NewsDisclaimer"] {
+    background: #eee;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+}
+div[id*="_Panel_PullQuoteOptional"]:before {
+    content: '\f10d';
+    font-family: 'FontAwesome'; color:#ddd;
+}
+div[id*="_Panel_PullQuoteOptional"]:after {
+    content: '\f10e';
+    font-family: 'FontAwesome'; color:#ddd;
+}
+div#ctl01_TemplateBody_WebPartManager1_gwpciRecent10_ciRecent10_SelectContainer, div#ctl01_TemplateBody_WebPartManager1_gwpcisearch_cisearch_SelectContainer, div#ctl01_TemplateBody_WebPartManager1_gwpciHotTopics_ciHotTopics_SelectContainer{display:none}
+.noHdr.ypComm { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.noHdr.ypComm .col-md-4.col-sm-6 {
+    padding-bottom: 25px;
+}
+.noHdr.ypComm > .panel {width:100%;}
+.cardRoster .rosterImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.rosterCard .rosterTitle {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 7px 0;
+}
+.cardRoster .rosterCompany {
+    font-weight: 500;
+}
+
+.modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin: 15px;
+}
+
+.has-secondary-col .col-primary {
+    width: 100%;
+    margin-right: 0;
+}
+
+#ctl01_SubNavPanel {display:none;}
+
+/*!****************************
+* Accordion
+******************************/
+
+/*
+.ContentHtml.AccordionHeader.headerSelected:after {
+    content: '';
+    height: 1px;
+    width: calc(100% - 48px);
+    background: #455660;
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+		transition: ease-out all .5s;
+}
+
+.ContentHtml.AccordionHeader:after {
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #455660;
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+
+}
+*/
+
+.AccordionContent {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.ContentItemContainer > div[id*='Panel_AccordionContent'] {
+    padding: 2rem;
+}
+
+.AccordionContentIQA,
+.AccordionHeaderIQA,
+.AccordionHeader,
+.AccordionContent,
+.AccordionMultiHeader {
+    width: 100%;
+}
+
+.AccordionIQA .panel-heading.Distinguish:before,
+div[id*='_AccordionHeader']:before,
+div[id*='_AccordionMultiHeader']:before,
+.AccordionHeader:before,
+.AccordionHeaderIQA:before,
+.AccordionMultiHeader:before {
+    display: inline-block;
+    font-family: fontawesome;
+    content: '\f0d8';
+    transform: rotate(90deg);
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.miniAccordionZone div[id*='_AccordionMultiHeader'].headerSelected:before, .miniAccordionZone .AccordionMultiHeader.headerSelected:before, .miniAccordionZone div[id*='_AccordionMultiHeader']:before, .miniAccordionZone .AccordionMultiHeader:before {
+    display: inline-block;
+    font-family: 'material icons';
+    content: 'check_circle';
+    transform: none;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-size: 16px;
+    line-height: 27px;
+    font-size: 16px;
+    color: #005c85;
+}
+
+.miniAccordionZone div[id*='_AccordionMultiHeader']:after, .miniAccordionZone .AccordionMultiHeader:after {
+    display: inline-block;
+    font-family: 'material icons';
+    content: 'add_circle';
+    transform: rotate(90deg);
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-size: 16px;
+    color: #005c85;
+    line-height: 27px;
+    position: absolute;
+    right: 30px;
+}
+
+.miniAccordionZone .AccordionControl h2, .miniAccordionZone .AccordionControl h3, .miniAccordionZone .AccordionControl h4 {font-weight:400; font-size:18px;line-height:27px; font-family:'dm sans', san-serif;}
+
+.miniAccordionZone .AccordionControl.headerSelected, .miniAccordionZone div[id*='_AccordionMultiHeader'].headerSelected {
+    background: #005c85!important;
+    color: white!important;
+}
+
+.miniAccordionZone .AccordionControl {
+    margin-top: 20px;
+}
+
+.miniAccordionZone div[id*='_AccordionMultiHeader'].headerSelected:before, 
+.miniAccordionZone .AccordionMultiHeader.headerSelected:before, 
+.miniAccordionZone div[id*='_AccordionMultiHeader'].headerSelected:before, 
+.miniAccordionZone .AccordionMultiHeader.headerSelected:before {color:white;}
+
+
+.miniAccordionZone div[id*='_AccordionMultiHeader'].headerSelected:after,
+.miniAccordionZone .AccordionMultiHeader.headerSelected:after { color:white;
+    display: inline-block;
+    font-family: 'material icons';
+    content: 'add_circle';
+    transform: rotate(135deg);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    margin-right: 0;
+}
+
+.AccordionIQA .panel-heading.Distinguish.headerSelected:before,
+div[id*='AccordionHeader'].headerSelected > div[id*='_AccordionHeader']:before,
+div[id*='_AccordionMultiHeader'].headerSelected:before,
+.AccordionHeaderIQA.headerSelected:before,
+.AccordionHeader.headerSelected:before,
+.AccordionMultiHeader.headerSelected:before {
+    display: inline-block;
+    content: '\f0d8';
+    transform: rotate(180deg);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    margin-right: 0;
+}
+
+.AccordionIQA .panel-body-container,
+div[id*='AccordionContent'].ContentItemContainer,
+.AccordionContentIQA {
+    height: 0;
+    overflow: hidden;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    float: right;
+    background: transparent;
+}
+
+.AccordionIQA .panel-heading.Distinguish,
+.iMIS-WebPart.accHeader,
+.iMIS-WebPart.accMultiHeader,
+.AccordionHeader,
+.AccordionHeaderIQA,
+.AccordionMultiHeader {
+    z-index: +1;
+    cursor: pointer;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 30px;
+    padding-top: 0;
+    border-bottom: 1px solid #007794;
+}
+
+.AccordionIQA .panel-heading.Distinguish,
+.iMIS-WebPart.accHeader > div.ContentItemContainer,
+.iMIS-WebPart.accMultiHeader > div.ContentItemContainer > div[id*='AccordionMultiHeader'],
+.AccordionHeader,
+.AccordionHeaderIQA,
+.AccordionMultiHeader {
+    color: #007794;
+    border-bottom: none;
+}
+
+.miniAccordionZone .iMIS-WebPart.accMultiHeader > div.ContentItemContainer > div[id*='AccordionMultiHeader'], .miniAccordionZone .AccordionMultiHeader {
+    color: #414141;
+    border-bottom: none;
+    background-color: #e5ecee;
+    box-shadow: 0 0 1px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.04), 0 10px 20px rgba(0,0,0,.04);
+    transition: all .3s ease;
+    font-weight: 400;
+}
+
+.AccordionHeader {position:relative;
+    height: 47px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+
+}
+
+.AccordionHeader.headerSelected:before {
+    margin-right: 5px;
+}
+
+.AccordionHeaderIQA {
+    min-height: 48px;
+    padding-top: 15px;
+}
+.AccordionContent.notShown {
+    padding: 0 2rem;
+}
+
+.shown > div,
+.notShown > div {
+    padding: 2rem;
+}
+
+.AccordionIQA .panel-body-container,
+.iMIS-WebPart > div[id*='AccordionContent'].ContentItemContainer,
+.iMIS-WebPart > div[id*='AccordionHeader'].ContentItemContainer,
+.iMIS-WebPart > div[id*='AccordionMultiHeader'].ContentItemContainer {
+    margin-bottom: 0px;
+}
+
+.AccordionIQA .panel-body-container.notShown,
+div[id*='_AccordionContent'].notShown,
+.AccordionContent.notShown,
+.AccordionContentIQA.notShown,
+div[id*='AccordionContent'].ContentItemContainer.notShown {background:white;
+    z-index: -1;
+    height: 0;
+    max-height: 0px;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.AccordionContent.notShown {
+    padding: 0 2rem;
+}
+
+.AccordionIQA .panel-body-container.shown,
+div[id*='AccordionContent'].ContentItemContainer.shown,
+div[id*='_AccordionContent'].shown,
+.AccordionContent.shown,
+.AccordionContentIQA.shown {background:#eee;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    max-height: 100%;
+    position: inherit !important;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.AccordionContentIQA.shown {
+    padding: 2rem 0;
+}
+
+.ContentHtml.AccordionHeader.headerSelected {
+    background: #eee;
+    color: #455660;
+}
+
+.AccordionIQA h2.panel-title,
+.AccordionIQA h3,
+div[id*='_AccordionHeader'] h2,
+div[id*='_AccordionHeader'] h3,
+div[id*='_AccordionHeader'] h4,
+div[id*='_AccordionMultiHeader'] h2,
+div[id*='_AccordionMultiHeader'] h3,
+div[id*='_AccordionMultiHeader'] h4,
+.AccordionHeaderIQA h2,
+.AccordionHeaderIQA h3,
+.AccordionHeaderIQA h4,
+.AccordionHeader h2,
+.AccordionHeader h3,
+.AccordionHeader h4,
+.AccordionMultiHeader h2,
+.AccordionMultiHeader h3,
+.AccordionMultiHeader h4 {text-transform:none;
+    display: inline;
+    margin: 0 7px 0 0;
+    border-bottom: 0;
+    color: inherit;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.AccordionHeader:before {
+    margin-right: 5px;
+}
+
+.AccordionIQA {
+    padding: 0 15px 0 15px;
+}
+
+.AccordionIQA .panel-body-container.shown {
+    padding: 0;
+}
+div[id*='AccordionContent'].ContentItemContainer.shown {
+    background: white;
+}
+
+.miniAccordionZone div[id*='AccordionContent'].ContentItemContainer.shown {margin-bottom:20px;
+    background: white;
+    box-shadow: 0 0 1px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.04), 0 10px 20px rgba(0,0,0,.04);
+}
+
+div[id*='AccordionContent'].ContentItemContainer.shown > div > .AccordionZone {
+    padding: 3rem 0;
+}
+
+.AccordionZoneIQA div[id*='AccordionContent'].ContentItemContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.AccordionControl {cursor:pointer;
+    min-height: 0 !important;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px;
+    color: white;
+    height: 47px;
+    overflow: hidden;
+    max-height: 47px;
+}
+
+
+@media (min-width:1024px){
+.noHdr.ypComm .rosterItem {
+    width: 50%;
+}
+}
+
+.EventSummary > .Description > div:first-child > span {
+    display: none;
+}
+
+#masterContentArea{max-width:1200px;margin:auto}
+.pagePanelGraphic{background-repeat:no-repeat}
+.wrapper{max-width:100vw}
+.divider{background:rgba(0,0,0,.25);height:3px;width:30px;margin:3px auto 1px auto}
+.font75{font-size:85%;padding:0 15px}
+a#masterHeaderImageCREFC2018{display:block}
+.noLabels .PanelField .Label,.noLabels .PanelField label{display:none}
+fieldset.ShowLegend{margin:0 50px 0 0}
+.StaticHeader .RadGrid_MetroTouch .rgHeader a{font-weight:700;text-decoration:none!important;color:#fff!important;cursor:default}
+input[type=radio]{margin-right:5px}
+#ctl01_TemplateBody_WebPartManager1_gwpciDonationCreator_ciDonationCreator_GiftAmountSelection>label{white-space:pre}
+.sliderCaption h2{font-size:38px;font-style:normal;line-height:40px;color:#455660}
+.sliderCaption p{font-size:18px;font-weight:400}
+.sliderCaption a.TextButton{margin-left:0;background:#009475;height:32px;font-size:14px!important;line-height:18px}
+.slide{height:360px!important;background-repeat:no-repeat;background-size:cover;background-position:center}
+.featuredEventSingle .slide {
+    height: auto!important;
+}
+
+.sliderCaption{background:rgba(255,255,255,.8)}
+.noGrid .rgHeader{display:none}
+.slide{overflow-y:hidden}
+.RadGrid.RadGrid_MetroTouch{width:100%!important}
+.hiddenContent{visibility:hidden}
+.multiColumn5 .meetingBlock{width:calc(20% - 20px);float:left;margin:5px 10px}
+.nav-auxiliary .nav-aux-cart .cartCenter{color:#fff;background-color:#ec8c56;top:2px;position:relative}
+.h2,div.PanelTitle,h2,h3,h4,h5{margin:12px 0 12px 0}
+.h2,div.PanelTitle,h2{border-bottom:1px solid #ddd}
+.homepageSlider .slide{margin-bottom:-15px}
+.eventSlide a.TextButton:hover:after{color:#009475!important}
+.outlinkIcon a.rsmLink:after{content:"\f08e";font-family:fontawesome;padding-left:10px}
+.slick-slider{max-width:calc(100vw - 30px);margin:auto}
+.homepageSlider.slick-slider{max-width:100vw}
+.miniCalendar a.TextButton.learnMore,.miniCalendar a.TextButton.learnMore:hover,.miniCalendar a.TextButton.registerButton,.miniCalendar a.TextButton.registerButton:hover{font-size:0!important;border:none!important;padding:0;margin:0;background:0 0!important;box-shadow:none}
+.miniCalendar a.TextButton.learnMore:after,.miniCalendar a.TextButton.registerButton:after{top:10px;content:'\f05a';font-family:fontawesome;font-size:18px;color:#007794;position:absolute;right:0}
+.miniCalendar .eventButton a.TextButton.learnMore,.miniCalendar .eventButton a.TextButton.registerButton{top:0;left:0;position:absolute;width:100%;height:100%}
+.sliderCaption{background:rgba(255,255,255,.8);position:absolute;bottom:50%;padding:20px;max-width:480px;transform:translateY(50%)}
+.grayBox.miniCalendar{padding:0 20px 15px 20px}
+.miniCalendar{max-height:580px;overflow-y:scroll}
+.grayBox.miniCalendar:after,.grayBox.miniCalendar:before{content:'';height:25px;background:#eee;z_index:+1;position:absolute;width:calc(100% - 30px);left:0;margin:auto;right:0}
+.grayBox.miniCalendar:before{top:-15px;z-index:+1}
+.grayBox.miniCalendar:after{bottom:0;z-index:+1}
+.meetingType{font-size:90%;color:rgba(0,0,0,.5);font-weight:300;padding-top:0;font-style:italic}
+span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-s:before{content:'\f106';font-family:fontawesome;padding-right:10px}
+span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e:before{content:'\f107';font-family:fontawesome;padding-right:10px}
+.ui-accordion-header.ui-state-hover{color:#007794;background:0 0}
+.ui-accordion-header{border:0;padding:5px 0;margin:0}
+.EventSummary img:first-child{max-width:none!important;width:100%}
+.dateBox{height:122px;width:122px;text-align:center;padding:5px 0 5px 0;background:#eee;float:left;margin-right:25px;color:#007794;margin-left:0;letter-spacing:-.5px;border-radius:0 0 10px 10px}
+.miniCalendar .dateBox{height:100px;width:100px}
+.miniCalendar a.TextButton.learnMore:after,.miniCalendar a.TextButton.registerButton:after{box-shadow:none;background:0 0}
+.miniCalendar>.iMIS-WebPart{background:#fff;padding:10px}
+.dateYear{color:rgba(0,119,148,.25)}
+.dateDay{font-size:48px;font-weight:500;padding:5px 0}
+.grayBox.minimalPadding{padding:25px 10px 0 10px}
+.miniCalendar .dateDay{font-size:36px}
+.dateMonth{font-size:18px;font-weight:300;text-transform:uppercase}
+.miniCalendar .dateMonth{font-size:15px}
+.meetingDetail{padding-top:5px}
+.font75 .RadGrid.RadGrid_MetroTouch{column-count:2}
+.eventSlide{position:relative;float:left;margin:8px 0 8px 3px;width:calc(100% - 5px);border-top:2px solid #eee}
+.meetingTitle{font-size:110%;font-weight:700;color:#007794;max-width:calc(100% - 25px)}
+.meetingDate{font-weight:300;font-size:90%}
+.miniCalendar .eventSlide{overflow:hidden;position:relative}
+.miniCalendar .meetingLocation,.miniCalendar .meetingTitle,.miniCalendar .meetingType{font-size:85%;line-height:17px}
+.miniCalendar .meetingDate{font-size:80%}
+.miniCalendar .dateDay{padding-bottom:2px}
+.miniCalendar .dateBox{padding-top:5px}
+.eventButton{text-align:center;width:100%;position:relative;float:right}
+.meetingLocation{line-height:18px}
+@media (min-width:768px){
+	.ccoVert .RadTabStrip span.rtsTxt {
+    line-height: 24px;
+    max-width: 100%;
+    font-size: 18px;
+}
+	
+	.noPanelPadding .panel-body{padding:0}
+	.miniCalendar .meetingDetail{position:relative;width:calc(100% - 125px);float:right}
+}
+.ccoVert .RadTabStrip span.rtsTxt {
+    line-height: 28px;
+    max-width: 100%;
+    word-break: break-word;
+}
+.miniCalendar .eventButton{position:absolute}
+.miniCalendar .eventButton{text-align:right;position:absolute;left:0;height:100%;width:100%}
+.noGrid th.rgHeader{display:none}
+.noGrid .RadGrid .rgAltRow,.noGrid .RadGrid .rgRow{background:0 0}
+.noGrid .RadGrid_MetroTouch .rgRow{background:0 0!important}
+.rgMasterTable td a{word-break:break-all}
+ul:not([class]) li:first-child:not([class]){padding-top:10px}
+.padBox{padding:20px}
+ol li{margin:5px 0}
+ol li ol li{list-style-type:lower-alpha}
+.sponsorLogo img{max-width:90%;margin:auto}
+div.sponsorLogo>div.iMIS-WebPart{margin-top:50%;transform:translateY(-50%)}
+.pagePanel2Frame{height:350px;padding:20px 15px 30px 15px;text-align:center;overflow:hidden;font-family:montserrat,sans-serif}
+.pagePanel2Link{position:absolute;bottom:0;left:0;right:0}
+.slick-track .pagePanel2Icon:before{font-family:ionicons;color:#fff;left:0;right:0;top:55px;bottom:0;font-size:60px;position:absolute;content:"\f273"}
+.pagePanel2Icon{width:100px;height:100px;border-radius:50%;margin:0 auto 15px auto}
+.pagePanel2Description{font-size:14px;line-height:20px;font-weight:300}
+.slick-track .pagePanel2Frame:hover .pagePanel2Icon:before{top:60px;left:-8px;content:"\f2a3"}
+.slick-track .pagePanel2Frame .pagePanel2Icon{background:#007794;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+.slick-track .pagePanel2Frame:hover .pagePanel2Icon{background:#009475;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+ul:not([class]) li:not([class]){list-style:none;padding-bottom:10px}
+ol:not([class]) li:not([class]){padding-bottom:10px}
+#ste_container_ciResourceCenterButton{height:60px;overflow:hidden}
+.PanelField .Label,.PanelField label{font-family:montserrat,sans-serif}
+.RadGrid.RadGrid_Metro .rgAltRow td,.RadGrid.RadGrid_Metro .rgAltRow td:first-child,.RadGrid.RadGrid_Metro .rgEditRow td,.RadGrid.RadGrid_Metro .rgEditRow td:first-child,.RadGrid.RadGrid_Metro .rgFilterRow td,.RadGrid.RadGrid_Metro .rgFilterRow td:first-child,.RadGrid.RadGrid_Metro .rgFooter td,.RadGrid.RadGrid_Metro .rgFooter td:first-child,.RadGrid.RadGrid_Metro .rgHeader,.RadGrid.RadGrid_Metro .rgHeader:first-child,.RadGrid.RadGrid_Metro .rgNoRecords td,.RadGrid.RadGrid_Metro .rgNoRecords td:first-child,.RadGrid.RadGrid_Metro .rgRow td,.RadGrid.RadGrid_Metro .rgRow td:first-child,.RadGrid.RadGrid_Metro th.rgResizeCol,.RadGrid.RadGrid_Metro th.rgResizeCol:first-child,.RadGrid.RadGrid_MetroTouch .rgAltRow td,.RadGrid.RadGrid_MetroTouch .rgAltRow td:first-child,.RadGrid.RadGrid_MetroTouch .rgEditRow td,.RadGrid.RadGrid_MetroTouch .rgEditRow td:first-child,.RadGrid.RadGrid_MetroTouch .rgFilterRow td,.RadGrid.RadGrid_MetroTouch .rgFilterRow td:first-child,.RadGrid.RadGrid_MetroTouch .rgFooter td,.RadGrid.RadGrid_MetroTouch .rgFooter td:first-child,.RadGrid.RadGrid_MetroTouch .rgHeader,.RadGrid.RadGrid_MetroTouch .rgHeader:first-child,.RadGrid.RadGrid_MetroTouch .rgNoRecords td,.RadGrid.RadGrid_MetroTouch .rgNoRecords td:first-child,.RadGrid.RadGrid_MetroTouch .rgRow td,.RadGrid.RadGrid_MetroTouch .rgRow td:first-child,.RadGrid.RadGrid_MetroTouch th.rgResizeCol,.RadGrid.RadGrid_MetroTouch th.rgResizeCol:first-child{font-family:montserrat,sans-serif}
+.CartCharges{background-color:#eee}
+.Quote{background:#eee;border-left:10px solid #007794}
+.Quote:before{color:#009475}
+.GridToolTip,.RadEditor input,.RadGrid,.RadGrid .rgCommandRow table,.RadGrid .rgDetailTable,.RadGrid .rgEditForm table,.RadGrid .rgGroupPanel table,.RadGrid .rgMasterTable,.RadGrid .rgPager table,.RadSplitter,.RadTreeView,.RadTreeView .rtEdit .rtIn input,.RadTreeView a.rtIn,.RadUploadProgressArea_Default,.RadUploadProgressArea_Default input,.RadUploadSubmit,.RadUpload_Default,.RadUpload_Default a,.RadUpload_Default input,.reAjaxspell_addicon,.reAjaxspell_button,.reAjaxspell_ignoreicon,.reAjaxspell_okicon,.reAjaxspell_wrapper,.reColorPicker .reCustomColor,.reDropDownBody,.reDropDownBody td,.reDropdown,.reEditorModes a,.reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text,.reModule,.reModule td,.reSpinBox input,.reToolbar a{font-family:montserrat,sans-serif!important}
+.noGrid .RadGrid_MetroTouch{border:0}
+.RadMenu.RadMenu_Austin .rmItem,.RadMenu.RadMenu_Austin .rsmItem{font-family:montserrat,sans-serif}
+tr td{vertical-align:top}
+.rosterItem{width:100%;padding:0 15px 15px 15px;text-align:center;line-height:26px;height:420px}
+.rosterCard {
+    width: 100%;
+    padding: 0 15px 15px 15px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.bioImage .PanelFieldValue,.rosterImage{width:179px;height:179px;border-radius:50%;overflow:hidden;margin:auto;box-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.bigButtonMenu a:first-child{display:inline-block;width:100%;color:#007794;padding:10px 5px 10px 15px;font-size:150%;background:#eee;border-bottom:2px solid #fff;text-transform:uppercase}
+.bigButtonMenu .BigButtonLinkList a:not(:first-child){padding:5px 5px 0 30px;display:inline-block;width:100%;max-width:350px}
+.bigButtonMenu a{position:relative;display:inline-block}
+.bigButtonMenu .BigButtonLinkList a:hover:after,.bigButtonMenu.selected1 div.BigButtonLinkList>a.ButtonItem:nth-child(1):after,.bigButtonMenu.selected2 div.BigButtonLinkList>a.ButtonItem:nth-child(2):after,.bigButtonMenu.selected3 div.BigButtonLinkList>a.ButtonItem:nth-child(3):after,.bigButtonMenu.selected4 div.BigButtonLinkList>a.ButtonItem:nth-child(4):after,.bigButtonMenu.selected5 div.BigButtonLinkList>a.ButtonItem:nth-child(5):after,.bigButtonMenu.selected6 div.BigButtonLinkList>a.ButtonItem:nth-child(6):after,.bigButtonMenu.selected7 div.BigButtonLinkList>a.ButtonItem:nth-child(7):after{content:'\f104';font-family:fontawesome;padding-left:10px;position:absolute;font-size:24px;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out;color:#fff;font-weight:700;top:50%;transform:translateY(-50%)}
+.bigButtonMenu .BigButtonLinkList a:hover:after{color:#009475}
+.bigButtonMenu a:hover{text-decoration:none}
+.docDownloadPanel div{text-align:center;width:100%}
+.bioTitle .Label{display:none}
+.bioTitle{font-size:16px;line-height:25px}
+hr{margin-left:0;margin-right:0;border-width:2px 0 0 0;border-style:solid;border-color:#eee}
+.bioImage img,.rosterImage img{min-width:179px;min-height:179px}
+.rosterName{padding-top:15px;color:#007794;text-transform:uppercase;font-size:20px}
+.rosterCompany,.rosterTitle{font-size:17px;line-height:25px}
+.rosterPosition{color:#007794;font-weight:400;font-size:16px;text-transform:uppercase;padding-top:15px}
+.RadToolTip .rtWrapper td.rtWrapperContent{font:normal 12px montserrat,Sans-serif!important}
+span.docDivider{font-weight:700;color:rgba(255,255,255,.65)}
+.topicResultsBox .PanelFieldValue span{color:#004984;font-weight:600;font-size:28px}
+.InLineOption_Controls_Always_Display{font-size:75%}
+#aspnetForm{position:relative}
+.hotTopicsBox .Title,.top10Box .Title,.topicResultsBox .Title{display:none}
+.RadGrid.RadGrid_MetroTouch{background:0 0!important}
+.docInfoPanel{background:#fff;text-align:center;padding:15px;margin-top:25px;margin-left:-1px;margin-right:-1px;border-bottom:20px solid #fff}
+iframe[src*=Document_Download]{background:#fff}
+.docInfoPanel{background:#fff;text-align:center;margin-top:25px}
+.fancybox-inner{width:100%!important}
+span.docTitle{display:block;padding-bottom:15px;font-weight:600}
+span.docDescription{padding-top:10px}
+.docPanel{margin-top:-1px}
+.RadGrid.RadGrid_Metro .rgMasterTable .rgSelectedCell a,.RadGrid.RadGrid_Metro .rgSelectedRow a,.RadGrid.RadGrid_Metro .rgSelectedRow td.rgSorted a,.RadGrid.RadGrid_Metro td.rgEditRow .rgSelectedRow a,.RadGrid.RadGrid_Metro th.rgSorted a,.RadGrid.RadGrid_MetroTouch .rgMasterTable .rgSelectedCell a,.RadGrid.RadGrid_MetroTouch .rgSelectedRow a,.RadGrid.RadGrid_MetroTouch .rgSelectedRow td.rgSorted a,.RadGrid.RadGrid_MetroTouch td.rgEditRow .rgSelectedRow a,.RadGrid.RadGrid_MetroTouch th.rgSorted a{color:#007794!important}
+.correctEventWidth .ContentBorder{border-color:transparent;padding:0}
+.col-sm-12.blueBackground{margin-left:-15px;margin-right:-15px}
+.hotTopicsBox thead,.top10Box thead{display:none}
+.RadGrid_MetroTouch .rgAltRow{background:0 0!important}
+.RadGrid_MetroTouch .rgRow{background:#eee!important}
+.FilterPanel{background-color:#eee}
+.searchControlBox .PanelField .Label,.searchControlBox .PanelField label{width:100%;text-align:center}
+.searchControlBox .PanelFieldValue,.searchControlBox input[type=text]{width:100%;padding:0}
+.searchControlBox select{max-width:100%}
+.emptyZone th.rgHeader{display:none}
+.searchControlBox div{text-align:center}
+span.docLink.doc:after{content:"\f019";background:#009475;height:28px;width:36px;display:block;font-family:fontawesome;color:#fff;font-weight:400;border-radius:15px;font-size:16px;line-height:27px;text-align:center;box-shadow:3px 3px 0 rgba(0,0,0,.17);position:absolute;top:0}
+span.docIcon.staffEdit{font-size:0}
+span.docIcon.staffEdit a:before{content:'\f044';font-family:fontawesome;font-size:18px;color:#007794}
+.docButton a{width:40px;display:block}
+.searchControlBox h2.panel-title,.searchControlBox2 h2.panel-title{display:none}
+.searchControlBox .TitleBarTitle{text-align:center;float:unset}
+span.docLink.doc:hover:after{background:#80caba;box-shadow:6px 6px 0 rgba(0,0,0,.17)}
+span.docLink.site:after{content:"\f08e";background:#007794;height:28px;width:36px;display:block;font-family:fontawesome;color:#fff;font-weight:400;border-radius:15px;font-size:16px;line-height:27px;text-align:center;box-shadow:3px 3px 0 rgba(0,0,0,.17);position:absolute;top:0}
+.docHeaderPanel span.docAuthor:before{content:none}
+span.docLink.site:hover:after{background:#80caba;box-shadow:6px 6px 0 rgba(0,0,0,.17)}
+.RadGrid_MetroTouch .rgMasterTable .rgSelectedCell,.RadGrid_MetroTouch .rgSelectedRow,.RadGrid_MetroTouch .rgSelectedRow td.rgSorted,.RadGrid_MetroTouch td.rgEditRow .rgSelectedRow{color:#455660!important}
+.RadGrid_MetroTouch{color:#455660!important}
+.docButton a{font-size:0}
+.emptyZone tr td,.hotTopicsBox tr td,.top10Box tr td,.topicResultsBox tr td{font-size:16px;vertical-align:top}
+span.docButton{position:relative}
+span.docAuthor,span.docDate{font-style:italic}
+span.docAuthor:before{content:'by ';display:inline}
+.docHeaderPanel span.docAuthor{content:none}
+.emptyZone,.hotTopicsBox,.top10Box,.topicResultsBox{line-height:22px}
+a span.docLinkIcon:after{text-decoration:none;content:'\f108';font-family:fontawesome;color:#004894}
+a[href*="Document_Download.aspx"] span.docLinkIcon:after{content:'\f016'}
+a[href$=".pdf"] span.docLinkIcon:after{text-decoration:none;content:'\f1c1';font-family:fontawesome;color:#004894}
+.contactBox{background:#eee;padding:10px}
+span.docLinkIcon{font-size:20px;font-weight:400}
+.RadGrid_MetroTouch .rgAltRow a,.RadGrid_MetroTouch .rgEditForm a,.RadGrid_MetroTouch .rgFooter a,.RadGrid_MetroTouch .rgRow a,.RadGrid_MetroTouch tr.rgEditRow a{text-decoration:none}
+.RadGrid_MetroTouch .rgAltRow td,.RadGrid_MetroTouch .rgRow td{border:1px solid transparent!important}
+.hide{display:none}
+.thumbnailGraphic img{border-radius:16px;box-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.thumbnailDescription strong{text-transform:uppercase}
+.row.grayBackground{padding:15px 10px 0 5px;margin-bottom:15px}
+.forumBox h4{color:#007794;font-size:20px;text-align:center}
+.forumsBox{text-align:center}
+.rosterTitle span.Label{display:none}
+.loginBox .PanelField{float:unset}
+.loginBox .PanelField label{text-align:center;width:100%;margin-left:5px}
+.loginBox{text-align:center;background:#eee;border:0}
+.loginBox .panel.panel-border{border-color:transparent}
+.docHeaderPanel{color:#fff;text-align:center;margin:auto -1px;padding-top:35px;background:#004894;padding-bottom:10px}
+.docPanel .GridTitlePanel{display:none}
+.docPanel:before{height:25px;width:100%;content:'';display:block;position:absolute;background:#004894;left:0}
+.topicResultsBox .Label{display:none}
+.topicResultsBox th.rgHeader{display:none}
+.loginBox h2.panel-title:after{content:'';display:block;width:90px;height:4px;background:rgba(0,0,0,.15);margin:15px auto 5px auto}
+.blueBackground{background:#004894;color:#fff}
+.loginBox{text-align:center;margin-top:30px;padding-top:25px}
+.fancybox-close{top:5px!important;right:30px!important}
+.SearchResultSummary .ListItemTitle a:hover{text-decoration:none;background-color:#007794}
+.fancybox-skin{background:0 0!important}
+.SearchField{position:fixed;width:100%;margin-top:-1px}
+#ctl00_TemplateBody_WebPartManager1_gwpciSearchresults_ciSearchresults_panResults{padding-top:40px}
+.GridCardStyle .RadGrid_MetroTouch{border:0}
+.GridCardStyle{margin-left:-15px;margin-right:-15px}
+.GridCardStyle .rgMasterTable{padding-left:15px;padding-right:15px}
+a.fancybox-item.fancybox-close:after{vertical-align:middle;font-weight:400;content:'\f129';font-family:ionicons;font-size:36px;color:#fff;display:block;text-shadow:none;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out;background:#004894;height:38px;width:36px;text-align:center}
+.RadSlider_MetroTouch div.rslHorizontal a.rslDraghandle,.RadSlider_MetroTouch div.rslHorizontal div.rslSelectedregion{background-color:#004894!important}
+#fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{background-image:none!important}
+#ctl01_TemplateBody_WebPartManager1_gwpciEventDisplay_ciEventDisplay_EventImage{display:none}
+.RadGrid .pagePanelTitle a,.RadGrid .pagePanelTitle a:visited{text-decoration:none}
+.RadGrid .pagePanelFrame:hover .pagePanelTitle a,.RadGrid .pagePanelFrame:hover .pagePanelTitle a:visited{text-decoration:none;color:#009475}
+.eventIconPanelFrame{padding:20px 15px 30px 15px;text-align:center;overflow:hidden;font-family:montserrat,sans-serif}
+.grayBox a.PrimaryButton.TextButton{color:#fff}
+.grayBox a.PrimaryButton.TextButton:hover{color:#009475}
+.RadGrid .TextButton,.RadGrid .TextButton:hover,.RadGrid .TextButton:visited{color:#fff!important;text-decoration:none!important}
+.slick-slider{overflow:hidden}
+.RadGrid .greenButton,.RadGrid .registerButton,.docDownloadPanel a,.docDownloadPanel a:visited,.greenButton,.registerButton{background:#009475}
+.RadGrid .greenButton:hover,.RadGrid .registerButton:hover,.docDownloadPanel a:hover,.greenButton:hover,.registerButton:hover{background:#fff!important;color:#009475!important;border:2px solid #18a88a!important}
+.RadGrid .searchButton,.searchButton{background:#eee!important;color:#007794!important}
+.RadGrid .searchButton:hover,.searchButton:hover{background:#0b9f80!important;color:#fff!important;border:2px solid transparent!important}
+a.TextButton.searchButton{height:30px;line-height:16px;letter-spacing:0;margin:2px}
+.featureCentered{text-align:center}
+.hideVAadminPanel div[id$="_AdminPanel"]{display:none}
+.eventIconTitle{color:#007794;font-weight:400;font-size:22px;text-transform:uppercase;line-height:27px;padding-top:10px}
+.eventIcon{max-width:80px;margin:auto}
+.eventIconTitle{color:#007794;font-weight:400;font-size:22px;text-transform:uppercase;line-height:27px}
+.eventIconDateCity{color:#455660;font-size:17px;line-height:26px}
+.eventIconDateCityDivider{color:#b8b8b8}
+.obo-label{font-weight:400;text-transform:uppercase;opacity:.5}
+.obo-actions{opacity:.5}
+.obo-panel:hover .obo-label{opacity:1}
+.obo-actions:hover{opacity:1}
+.RadTabStrip_Metro{font-family:montserrat}
+ul:not([class]) li:not([class]):before{color:#004894;content:"\f21b";font-family:ionicons;display:inline-block;margin-left:-1.5em;width:2em;font-size:7px;vertical-align:top;position:absolute}
+ul:not([class]) li:not([class]){list-style:none}
+.TaggedListPanel.slick-slider{max-width:100%}
+.noIndentBullets ul:not([class]) li:not([class]){margin-left:-1.3em}
+h1,h2,h3{font-family:Montserrat,sans-serif;word-break:break-word;max-width:100%;overflow:hidden}
+.CartCharges{background-color:#eee;padding:10px}
+.h3,h2.PanelTitle,h2.panel-title,h3{text-transform:uppercase;font-size:24px;font-weight:600;color:#455660;font-weight:600;line-height:28px}
+.SectionLabel,.h4,h4{font-size:22px line-height:24px}
+.FilterPanel .PanelFieldValue,.FilterPanel label{width:100%;text-align:center}
+.row.greenBackground+.row{padding-top:15px}
+.row.blueBackground+.row{padding-top:15px}
+.row.tealBackground+.row{padding-top:15px}
+#ctl01_BreadCrumb_ctl04_CurrentNodeLabel{font-weight:700}
+section.homepageSlider.slider{max-height:360px;overflow-x:hidden;background:#eee;margin:auto}
+.slide{max-width:100vw;height:100%;position:relative;overflow-x:hidden}
+.slide a{text-decoration:none}
+.slide{margin-bottom:15px}
+.page-panels{max-width:calc(100vw - 30px)}
+.page-panels .panel-body{padding:10px 0}
+.pagePanelGraphic .ContentHtml:not(:first-child){display:none}
+.pagePanelFrame{padding-top:25px}
+.pagePanelFrame:hover .pagePanelGraphic img{transform:scale(1,1);filter:brightness(105%);-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+.pagePanelGraphic img{transform:scale(1.03,1.03);-webkit-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;filter:brightness(100%)}
+.pagePanelGraphic{border-radius:25px;overflow:hidden;box-shadow:3px 3px 0 0 rgba(0,0,0,.17);border-color:#007794}
+
+.featuredEventSingle .pagePanelGraphic {
+border-radius: 3px;}
+.featuredEventSingle .pagePanelMore {
+display:none;}
+
+.featuredEventSingle .pagePanelFrame    { max-height: 442px;
+overflow: hidden;}
+
+.featuredEventSingle .pagePanelFrame:hover .pagePanelGraphic img, .featuredEventSingle .pagePanelFrame .pagePanelGraphic img {transform:none!important;}
+.pagePanelTitle a{text-decoration:none}
+.pagePanelFrame{text-align:center;padding:0 10px;font-family:Montserrat,sans-serif;font-size:20px}
+.pagePanelTitle a:before{text-decoration:none;position:absolute;content:'';background:0 0;width:100%;height:100%;bottom:0;left:0}
+.pagePanelTitle{text-decoration:none;text-transform:uppercase;color:#007794;padding-top:15px;line-height:24px;min-height:90px;max-height:98px;overflow:hidden}
+.pagePanelFrame:hover .pagePanelGraphic+.pagePanelMore:after{content:'';display:block;height:2px;width:60%;background:rgba(255,255,255,.5);position:relative;bottom:16px;margin:auto;-webkit-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in}
+.pagePanelFrame .pagePanelGraphic+.pagePanelMore:after{content:'';display:block;height:2px;width:0%;background:#fff;position:relative;bottom:16px;margin:auto;-webkit-transition:all .25s ease-out;-o-transition:all .25s ease-out;transition:all .25s ease-out}
+.pagePanelMore{position:absolute;border-top-left-radius:50px;border-top-right-radius:50px;height:50px;width:100px;background:#007794;margin:auto;text-transform:uppercase;left:calc(50% - 50px);-webkit-transition:background .2s ease-out;-o-transition:background .2s ease-out;transition:background .2s ease-out;margin-top:-50px;color:#fff;line-height:56px}
+.pagePanelFrame:hover .pagePanelGraphic+.pagePanelMore+.pagePanelTitle a{color:#009475!important;text-decoration:none;-webkit-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+.pagePanelFrame:hover .pagePanelGraphic+.pagePanelMore{background-color:#009475;-webkit-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
+.pagePanelMore a,.pagePanelMore a:visited{line-height:56px;color:#fff!important;text-decoration:none;font-weight:400;-webkit-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out}
+.pagePanelFrame:hover .pagePanelGraphic{border-width:4px;border-style:solid;border-color:#009475;box-shadow:6px 6px 0 0 rgba(0,0,0,.17);-webkit-transition:border-color .3s ease-out,box-shadow .5s ease-out,border-style .3s ease-out;-o-transition:border-color .3s ease-out,box-shadow .5s ease-out,border-style .3s ease-out;transition:border-color .3s ease-out,box-shadow .5s ease-out,border-style .3s ease-out}
+.pagePanelFrame:hover .pagePanelGraphic>.pagePanelMore{background:#009475;-webkit-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out}
+.pagePanelTitle a,.pagePanelTitle a:visited{-webkit-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out;color:#007794}
+.menu-panels .pagePanelTitle a:before{content:none}
+.menu-panels .pagePanelTitle a{pointer-events:none}
+.navbar-header{width:100%;background:#007794;padding:0 calc(50% - 585px)}
+div[id$="_BannerThumbnail"]{display:none}
+.padlockIcon a.rsmLink:before{content:"\f457";font-family:ionicons;padding-right:10px;font-size:150%;color:#007794;line-height:100%;font-weight:700}
+.menuButton.padlockIcon a.rsmLink:before{color:rgba(255,255,255,.7);font-size:125%}
+:focus{outline:0}
+.row.greenBackground{font-family:montserrat,sans-serif;font-size:20px!important;color:#fff;width:calc(100vw - 0px);background:#009475;font-size:20px}
+.row.blueBackground{font-family:montserrat,sans-serif;font-size:20px!important;color:#fff;width:calc(100vw - 0px);background:#004894;font-size:18px}
+.row.tealBackground{font-family:montserrat,sans-serif;font-size:20px!important;color:#fff;width:calc(100vw - 0px);background:#007794;font-size:18px}
+
+.row.greenBackground:before {
+    content: '';
+    height: 100%;
+    width: 15px;
+    position: absolute;
+    background: #009475;
+    top: 0;
+    left: -15px;
+}
+
+.row.blueBackground:before {
+    content: '';
+    height: 100%;
+    width: 15px;
+    position: absolute;
+    background: #004894;
+    top: 0;
+    left: -15px;
+}
+
+.row.tealBackground:before {
+    content: '';
+    height: 100%;
+    width: 15px;
+    position: absolute;
+    background: #007794;
+    top: 0;
+    left: -15px;
+}
+
+.miniProfile .PanelField {
+    padding: 0;
+}
+.miniProfile a {
+    font-weight: bold; text-decoration:underline;
+}
+.miniProfile a:hover {
+color:#009b96;
+}
+.smallTable  {
+    font-size: 90%;
+    font-weight: 500;
+    line-height: 1.3;
+    
+}
+.smallTable td a {
+    word-break: normal!important;
+}
+
+.smallTable td, .smallTable th {vertical-align:middle;}
+.smallTable th {font-weight:600;}
+
+.blueBackground .h2,.blueBackground .h3,.blueBackground h2,.blueBackground h3,.greenBackground .h2,.greenBackground .h3,.greenBackground h2,.greenBackground h3,.tealBackground .h2,.tealBackground .h3,.tealBackground h2,.tealBackground h3{color:#fff}
+.blueBackground .h3,.blueBackground h3,.greenBackground .h3,.greenBackground h3,.searchControlBox h2.PanelTitle,.tealBackground .h3,.tealBackground h3{letter-spacing:0;text-transform:uppercase;font-size:26px;font-weight:600;padding-top:15px}
+.ste-section a{height:0}
+.DisableSurfToEditButton,.SurfEdit:hover,.obo-toggle.on,.obo-toggle:hover{background:0 0;border-color:transparent}
+.SurfEdit:hover{text-decoration:none!important}
+a.DisableSurfToEditButton,a.EnableSurfToEditButton{background-image:none;display:inline-block}
+.ste-section a.ste-toggle.off:before{content:'\f43c';font-family:ionicons;font-size:36px;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.EnableSurfToEditButton:hover:before{text-shadow:6px 6px 0 rgba(0,0,0,.17)}
+.ste-section a.ste-toggle.on:before{content:'\f43d';font-family:ionicons;font-size:36px;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.ste-section a.ste-toggle{font-size:0}
+.DisableSurfToEditButton:hover:before{text-shadow:6px 6px 0 rgba(0,0,0,.17)}
+.padlockIcon a.rsmLink:hover:before{color:#fff}
+.transparent{background:0 0!important}
+.backgroundGray{background:#eee}
+.breadcrumb a{text-decoration:none}
+#ctl01_BreadCrumb_ctl02_CurrentNodeLabel{font-weight:700}
+.menuButton .rmSlide .rsmLink:hover{color:#fff;background:#80caba}
+.footerSocial img:hover{-webkit-filter:brightness(120%);filter:brightness(120%);-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+.HorizontalButtons a.btn{margin-bottom:10px}
+#PageBanner{font-family:montserrat,sans-serif;position:relative;overflow:hidden}
+
+.uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], .uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    display: inline-block;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    /* font-weight: 500; */
+    text-align: left;
+    font-family: montserrat,sans-serif;
+    width: 100%;
+    max-width: 250px;
+}
+
+textarea {max-width:250px;}
+select {width:auto; max-width:unset;}
+
+.PanelFieldValue {width:100%;}
+
+.FilterPanel{font-family:montserrat,sans-serif;text-align:center}
+.resourcesList{font-family:montserrat,sans-serif}
+.ValidationError{position:absolute}
+.FilterPanel h3:after,.featureCentered h3:after,.grayBox h3:after,.searchControlBox h3:after,h3.divider:after{height:5px;width:70px;background:rgba(0,0,0,.25);display:block;content:'';position:relative;z-index:+1;margin:20px auto}
+.RadGrid_MetroTouch .rgHeader,.RadGrid_MetroTouch .rgHeader a{line-height:24px}
+.RadGrid_MetroTouch .rgPager .rgPagerButton{font-family:montserrat,sans-serif!important}
+.RadGrid_MetroTouch{border-color:transparent!important}
+div[id^=ste_container_ciBannerText]>div:first-child{padding:0 30px;background:rgba(255,255,255,.85);text-align:left;font-weight:400;font-style:italic}
+div[id^=ste_container_ciBannerText]>div:first-child h1{font-style:normal;padding:0;margin-bottom:-15px}
+div[id^=ste_container_ciBannerText]{position:absolute;top:calc(50% + 5px);padding:0 calc(50% - 600px);transform:translateY(-50%);margin-left:15px;text-align:left}
+.breadcrumb-obo-container{height:40px;font-size:12px;padding-top:3px;background:#eee;font-family:montserrat,sans-serif}
+.videoFrame{position:relative;width:100%;padding-bottom:51%;margin-bottom:25px}
+.videoFrame iframe{position:absolute;width:100%;height:100%}
+.footerSocial img{-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+.navbar-header a{color:#fff;text-decoration:none}
+#masterHeaderImageCREFC2018 img{max-height:80px;padding-top:5px}
+#hd{min-height:149px}
+.footerSocial img{width:30px;margin-right:10px}
+#ft{background:#455660;color:#d2d5d7;font-style:italic;line-height:20px;font-size:12px}
+#ft a{text-decoration:underline;font-style:normal;color:#d2d5d7}
+.footerAddress1:before,.footerAddress2:before{content:'';height:100px;width:2px;background:rgba(255,255,255,.2);position:absolute;left:5px}
+.footerMenu{font-family:montserrat,sans-serif;text-align:right;padding-top:10px}
+.footerCopyright{font-family:montserrat,sans-serif;text-align:right;padding-right:8px}
+.footerLogo{padding-top:45px}
+.footerAddress1,.footerAddress2{font-family:montserrat,sans-serif;padding-top:60px;margin-left:10px}
+.footerCommunications{font-family:montserrat,sans-serif;background:#364751;padding:65px 0 100% 40px}
+.header{font-family:montserrat,sans-serif;padding-top:0}
+.nav-auxiliary .nav-aux-cart .nav-text{background-image:none}
+.nav-auxiliary .nav-aux-cart .nav-text:before{vertical-align:middle;font-weight:700;content:'\f3f7';font-family:ionicons;font-size:36px;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.nav-auxiliary .nav-aux-cart .nav-text{background-position:0}
+.nav-auxiliary .nav-aux-cart .nav-text,.nav-auxiliary .nav-aux-search .nav-text{font-size:0}
+.nav-auxiliary .nav-aux-search .nav-text{background-image:none}
+.nav-auxiliary .nav-aux-search .nav-text:before,.navbar-toggle .icon-search:before{vertical-align:middle;content:'\f2f5';font-family:ionicons;font-size:36px;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+.navbar-toggle .icon-search:before{font-size:36px;color:#fff;text-shadow:none;position:absolute;top:0}
+.navbar-toggle .icon-search{background-image:none}
+.nav-auxiliary .nav-aux-search:hover .nav-text:before{background-image:none;text-shadow:6px 6px 0 rgba(0,0,0,.17)}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsLink, .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL .rtsLink, .RadTabStrip_Metro .rtsLevel1 .rtsLink, .RadTabStrip_Metro .rtsLevel1 .rtsUL .rtsLink {
+    text-transform: none;
+    border-color: #eee;
+    background: #eee;
+    color: #007974;
+    padding: 2px 12px;
+    font-family: montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ContentTabbedDisplay,.ContentWizardDisplay{border-width:0; padding:0;}
+.rtsLink:before{content:'';height:4px;background:#fff;display:block;position:relative;left:0;top:-13px;margin:0 -13px}
+.rtsLink.rtsSelected:before{background:0 0}
+.rtsLink:hover:before{background:0 0}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL{padding:0!important}
+.RadTabStrip_Metro .rtsLevel .rtsIn,.RadTabStrip_Metro .rtsLevel .rtsOut,.RadTabStrip_Metro .rtsLevel .rtsTxt{padding-top:4px!important}
+
+.RadMultiPage.RadMultiPage_Default {
+    padding-top: 10px;
+}
+
+.profilePage tr td > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.PanelField label, .PanelField .Label {
+    width: 100%;
+}
+
+.RadTabStrip.RadTabStrip_MetroTouch .rtsUL .rtsFirst, .RadTabStrip.RadTabStrip_MetroTouch .rtsUL .rtsLI, .RadTabStripBottom_Metro .rtsUL .rtsFirst, .RadTabStripBottom_Metro .rtsUL .rtsLI {
+    padding: 5px 5px 0 0!important;
+}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsLink:hover,.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected,.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL .rtsLink:hover,.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL .rtsSelected,.RadTabStrip_Metro .rtsLevel1 .rtsLink:hover,.RadTabStrip_Metro .rtsLevel1 .rtsSelected,.RadTabStrip_Metro .rtsLevel1 .rtsUL .rtsLink:hover,.RadTabStrip_Metro .rtsLevel1 .rtsUL .rtsSelected{border-color:#fff;background:#007794;color:#fff;text-decoration:none!important}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1,.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL,.RadTabStrip_Metro .rtsLevel1,.RadTabStrip_Metro .rtsLevel1 .rtsUL{background-color:transparent!important}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsLink:hover,.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL .rtsLink:hover,.RadTabStrip_Metro .rtsLevel1 .rtsLink:hover,.RadTabStrip_Metro .rtsLevel1 .rtsUL .rtsLink:hover{background-color:#009475}
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL{padding:0}
+.CalloutPart2 .panel-body,.CalloutPart2 .panel-heading{background-color:#eee}
+#PageBanner:before{width:100%;content:'';display:block;height:3px;z-index:1000;position:absolute;background:rgba(0,0,0,.17);background:-moz-linear-gradient(top,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%)}
+#PageBanner:after,#ctl01_HomePageContent:after{bottom:0;width:100%;content:'';display:block;height:2px;position:absolute;background:rgba(0,0,0,.17);background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 21%,rgba(0,0,0,.17) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 21%,rgba(0,0,0,.17) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 21%,rgba(0,0,0,.17) 100%)}
+#ctl01_HomePageContent{position:relative}
+.fancybox-overlay{background:rgba(255,255,255,.9)!important}
+#aspnetForm[action*="/Library/Default.aspx"]~.fancybox-overlay,#aspnetForm[action*="/Library/SearchByTopic.aspx"]~.fancybox-overlay,#aspnetForm[action*="/library/Default.aspx"]~.fancybox-overlay,#aspnetForm[action*="/library/SearchByTopic.aspx"]~.fancybox-overlay{background:rgba(0,0,0,.65)!important}
+.SearchField,.SearchResultSummary .ListItemTitle a{display:block;background-color:#004894;padding:0 15px}
+.SearchField label{font-size:18px;color:#fff;text-transform:uppercase;font-family:montserrat,sans-serif}
+.RadGrid.RadGrid_Metro .rgNumPart a.rgCurrentPage,.RadGrid.RadGrid_Metro .rgNumPart a.rgCurrentPage:hover,.RadGrid.RadGrid_Metro .rgPageFirst:active,.RadGrid.RadGrid_Metro .rgPageLast:active,.RadGrid.RadGrid_Metro .rgPageNext:active,.RadGrid.RadGrid_Metro .rgPagePrev:active,.RadGrid.RadGrid_Metro .rgPager .rgPagerButton,.RadGrid.RadGrid_MetroTouch .rgNumPart a.rgCurrentPage,.RadGrid.RadGrid_MetroTouch .rgNumPart a.rgCurrentPage:hover,.RadGrid.RadGrid_MetroTouch .rgPageFirst:active,.RadGrid.RadGrid_MetroTouch .rgPageLast:active,.RadGrid.RadGrid_MetroTouch .rgPageNext:active,.RadGrid.RadGrid_MetroTouch .rgPagePrev:active,.RadGrid.RadGrid_MetroTouch .rgPager .rgPagerButton{margin:2px;background-color:#004894;border-color:#004894;color:#fff!important;font-weight:400}
+.RadGrid_MetroTouch .rgNumPart a.rgCurrentPage,.RadGrid_MetroTouch .rgNumPart a.rgCurrentPage:hover{background-color:#004894;border:1px solid #004894;color:#fff}
+#ctl01_HomePageContent:before{width:100%;content:'';display:block;height:3px;z-index:1002;position:absolute;background:rgba(0,0,0,.17);background:-moz-linear-gradient(top,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgba(0,0,0,.27) 0,rgba(0,0,0,.17) 21%,rgba(0,0,0,0) 100%)}
+.banner:before{max-width:1920px;margin:auto;content:'';width:100%;height:100%;display:block;position:relative;background:rgba(0,0,0,0);background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.17) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.17) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.17) 100%)}
+.slick-list{max-width:none;overflow-x:hidden;margin:auto}
+.nav-auxiliary .nav-aux-account .nav-text{background-image:none}
+.auth-link:before{vertical-align:middle;content:'\f458';font-family:ionicons;font-size:20px;padding-right:5px;color:#959ca1}
+.auth-link:hover:before{color:#0b9f80}
+.nav-aux-account>a:hover:before{color:#0b9f80}
+.banner{background-repeat:no-repeat;background-size:cover;max-width:1920px;margin:auto}
+h2.larger, .newsCards h2.panel-title {font-size:40px;line-height:48px;padding-top:0}
+body{font-family:Montserrat,sans-serif;font-size:16px;line-height:28px;color:#455660}
+#ft{letter-spacing:0}
+#masterHeaderBackground,.header{border-bottom:none}
+.navbar-header{height:45px;text-align:right;width:100%;background:#007794;padding-top:5px;text-transform:uppercase}
+.search-container-sm{position:absolute;display:none!important}
+a{color:#007794;text-decoration:none}
+a:visited{color:#007794}
+a:active,a:focus,a:hover{color:#007794}
+a:hover{text-decoration:underline}
+a.aspNetDisabled,a.aspNetDisabled:active,a.aspNetDisabled:focus,a.aspNetDisabled:hover,a.aspNetDisabled:visited{color:#999}
+.RadGrid a,.RadToolTip a{color:#23749d!important;text-decoration:underline}
+.RadGrid a:visited,.RadToolTip a:visited{color:#007794!important}
+.RadGrid a:active,.RadGrid a:focus,.RadGrid a:hover,.RadToolTip a:active,.RadToolTip a:focus,.RadToolTip a:hover{color:#1a5573!important}
+.RadGrid a.aspNetDisabled,.RadGrid a.aspNetDisabled:active,.RadGrid a.aspNetDisabled:focus,.RadGrid a.aspNetDisabled:hover,.RadGrid a.aspNetDisabled:visited,.RadToolTip a.aspNetDisabled,.RadToolTip a.aspNetDisabled:active,.RadToolTip a.aspNetDisabled:focus,.RadToolTip a.aspNetDisabled:hover,.RadToolTip a.aspNetDisabled:visited{color:#999!important}
+.SearchResultSummary .ListItemTitle a,.SearchResultSummary .RadGrid a:visited,.SearchResultSummary .RadToolTip a:visited{color:#fff!important}
+.GridCardStyle .panel-body{padding:0}
+p{margin-top:0;margin-bottom:1em}
+.PageTitle,.PanelTitle,.h1,.h2,h1,h2{font-family:Montserrat,sans-serif;font-weight:600;color:#424242}
+.PageTitle,.h1,h1{font-family:Montserrat,sans-serif;text-transform:uppercase;margin-top:0}
+.PageTitle,.h1,h1{color:#455660;font-size:66px}
+.h1.BigHeader,h1.BigHeader{color:#fff;background-color:#dc4f00;padding:20px;margin:0}
+
+
+
+a[id$="_PreviousButton"], a[id$="_NextButton"] {float:left;}
+
+
+.PanelTitle,.rosterTitle .PanelFieldValue,h2, .newsCards h2.panel-title {line-height:36px;font-size:32px;color:#004894;font-weight:600}
+.PanelHead.Distinguish,.TitleBarCaption,.h2,.panel-heading.Distinguish,.rosterTitle .PanelFieldValue,div.PanelTitle,h2{min-height:0;border:0}
+.newsCards h2.panel-title {text-transform:none; font-size:40px}
+.SectionLabel,h4,h5{font-family:Montserrat,sans-serif;margin:0 0 .2em}
+.SectionLabel,.h4,h4{color:#009b96}
+.h5,h5{color:#009b96}
+.h6,h6{font-family:Montserrat,sans-serif;margin:0}
+.SubNavPanelHead{font-family:Montserrat,sans-serif}
+button,input,select,textarea{font-family:Montserrat,sans-serif;max-width:100%}
+.RadMenu.RadMenu_Austin .rsmItem.menuButton,.RadMenu.RadMenu_Austin .rsmItem.menuButtonrsmSelected{padding:10px 5px;background:rgba(238,238,238,.65);margin-bottom:-5px;margin-top:3px}
+.rsmItem.menuButton a.rsmLink,.rsmItem.menuButtonrsmSelected a.rsmLink{text-align:center;height:35px;background:#007794;border-radius:30px;color:#fff;margin:10px 15px;-webkit-transition:background .2s ease-out;-o-transition:background .2s ease-out;transition:background .2s ease-out;font-weight:400;box-shadow:3px 3px 0 0 rgba(0,0,0,.17)}
+.rmResponsive .rmSlide .menuButton .rmLink:focus,.rmResponsive .rmSlide .menuButton .rsmLink:focus,.rmResponsive .rmSlide .rsmTwoLevels>.rsmItem.menuButton>.rsmLink:focus,.rsmItem.menuButton a.rsmLink:hover,.rsmItem.menuButtonrsmSelected a.rsmLink:hover{border-radius:30px;font-weight:400;box-shadow:6px 6px 0 0 rgba(0,0,0,.17);background:#80caba;-webkit-transition:background .2s ease-out;-o-transition:background .2s ease-out;transition:background .2s ease-out;color:#fff}
+#masterHeaderActionArea a,.RadUpload .ruButton, a[id$="_PreviousButton"], a[id$="_NextButton"],  .RadUploadProgressArea .ruButton,.TextButton,.TextButtonWithImage,.btn,.docDownloadPanel a,.pagePanel2Link a{display:inline-block;margin:15px;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:normal;text-decoration:none;padding:5px 22px;font-size:16px;line-height:1.6;border-radius:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-transition:background .2s ease-out;-o-transition:background .2s ease-out;transition:background .2s ease-out}
+#masterHeaderActionArea a:focus, a[id$="_PreviousButton"]:hover, a[id$="_NextButton"]:hover, .RadUpload .ruButton:focus, .RadUploadProgressArea .ruButton:focus, .TextButton:focus, .TextButtonWithImage:focus, .btn:focus, .pagePanel2Link a:focus {
+    outline: none;
+    outline: none;
+    outline-offset: 0;
+}
+input, select, textarea {
+    
+    max-width: calc(100% - 25px);
+}
+#masterHeaderActionArea a:focus,#masterHeaderActionArea a:hover,.RadUpload .ruButton:focus,.RadUpload .ruButton:hover,.RadUploadProgressArea .ruButton:focus,.RadUploadProgressArea .ruButton:hover,.TextButton:focus,.TextButton:hover,.TextButtonWithImage:focus,.TextButtonWithImage:hover,.btn:focus,.btn:hover,.docDownloadPanel a:hover,.pagePanel2Link a:hover{color:#fff;text-decoration:none}
+#masterHeaderActionArea a.active,#masterHeaderActionArea a:active,.RadUpload .ruButton.active,.RadUpload .ruButton:active,.RadUploadProgressArea .ruButton.active,.RadUploadProgressArea .ruButton:active,.TextButton.active,.TextButton:active,.TextButtonWithImage.active,.TextButtonWithImage:active,.btn.active,.btn:active,.pagePanel2Link a:active{outline:0;background-image:none;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
+#masterHeaderActionArea a.aspNetDisabled,#masterHeaderActionArea a.disabled,#masterHeaderActionArea a[disabled],.RadUpload .ruButton.aspNetDisabled,.RadUpload .ruButton.disabled,.RadUpload .ruButton[disabled],.RadUploadProgressArea .ruButton.aspNetDisabled,.RadUploadProgressArea .ruButton.disabled,.RadUploadProgressArea .ruButton[disabled],.TextButton.aspNetDisabled,.TextButton.disabled,.TextButtonWithImage.aspNetDisabled,.TextButtonWithImage.disabled,.TextButtonWithImage[disabled],.TextButton[disabled],.btn.aspNetDisabled,.btn.disabled,.btn[disabled],fieldset[disabled] #masterHeaderActionArea a,fieldset[disabled] .RadUpload .ruButton,fieldset[disabled] .RadUploadProgressArea .ruButton,fieldset[disabled] .TextButton,fieldset[disabled] .TextButtonWithImage,fieldset[disabled] .btn{pointer-events:none;opacity:.55;-webkit-box-shadow:none;box-shadow:none}
+#masterHeaderActionArea a,#masterHeaderActionArea a:visited, a[id$="_PreviousButton"]:visited, a[id$="_NextButton"]:visited, a[id$="_PreviousButton"], a[id$="_NextButton"], .RadGrid input.TextButton,.RadGrid input.TextButton:visited,.RadUpload .ruButton:visited,.RadUploadProgressArea .ruButton:visited,.TextButton,.TextButton:visited,.TextButtonWithImage,.TextButtonWithImage:visited,.btn,.btn:visited,.docDownloadPanel a,.docDownloadPanel a:visited,.grayBox a.TextButton,.grayBox a.TextButton:visited,.nav-aux-account>a,.pagePanel2Link a,.pagePanel2Link a:visited,.ruButton,.ruButton:visited,a.auth-link{text-decoration:none;text-transform:uppercase;margin:15px;color:#fff;font-size:18px!important;font-family:montserrat,sans-serif;background-color:#007794;letter-spacing:4px;border-color:transparent;border-width:2px;border-radius:20px;font-weight:400;box-shadow:2px 2px 0 0 rgba(0,0,0,.27)}
+.pagePanel2Link a{position:relative;z-index:+1}
+a.fancybox-item.fancybox-close{margin-top:10px;text-decoration:none!important}
+.GridCardStyle input[type=button]{color:#007794;text-decoration:none;background:#fff;padding:2px 28px;font-family:montserrat,sans-serif;font-weight:500;max-height:36px;min-height:36px;line-height:18px}
+#ft a.TextButton.whiteButton{color:#007794;text-decoration:none;background:#fff;padding:2px 28px;font-family:montserrat,sans-serif;font-weight:500}
+#ft a.TextButton.whiteButton:Hover,.GridCardStyle input[type=button]:hover,.whiteButton:hover{background:#80caba;color:#fff}
+.footerSocial{padding-top:15px}
+#masterHeaderActionArea a:active,#masterHeaderActionArea a:focus,#masterHeaderActionArea a:hover,.RadGrid input.TextButton:active,.RadGrid input.TextButton:focus,.RadGrid input.TextButton:hover,.TextButton:active,.TextButton:focus,.TextButton:hover,.TextButtonWithImage:active,.TextButtonWithImage:focus,.TextButtonWithImage:hover,.btn:active,.btn:focus,.btn:hover,.grayBox a.TextButton:hover,.nav-aux-account>a:hover,.pagePanel2Link a:hover,.resourcesList a.TextButton:hover,.ruButton:active,.ruButton:focus,.ruButton:hover,a.auth-link:hover{color:#fff;background:#80caba;border-color:transparent;box-shadow:6px 6px 0 0 rgba(0,0,0,.17)}
+#masterHeaderActionArea a:active,.RadGrid input.TextButton:active,.TextButton:active,.TextButtonWithImage:active,.btn:active,.ruButton:active{background-image:none}
+#masterHeaderActionArea a.aspNetDisabled,#masterHeaderActionArea a.aspNetDisabled:active,#masterHeaderActionArea a.aspNetDisabled:focus,#masterHeaderActionArea a.aspNetDisabled:hover,#masterHeaderActionArea a[disabled],#masterHeaderActionArea a[disabled]:active,#masterHeaderActionArea a[disabled]:focus,#masterHeaderActionArea a[disabled]:hover,.RadGrid input.TextButton.aspNetDisabled,.RadGrid input.TextButton.aspNetDisabled:active,.RadGrid input.TextButton.aspNetDisabled:focus,.RadGrid input.TextButton.aspNetDisabled:hover,.RadGrid input.TextButton[disabled],.RadGrid input.TextButton[disabled]:active,.RadGrid input.TextButton[disabled]:focus,.RadGrid input.TextButton[disabled]:hover,.TextButton.aspNetDisabled,.TextButton.aspNetDisabled:active,.TextButton.aspNetDisabled:focus,.TextButton.aspNetDisabled:hover,.TextButtonWithImage.aspNetDisabled,.TextButtonWithImage.aspNetDisabled:active,.TextButtonWithImage.aspNetDisabled:focus,.TextButtonWithImage.aspNetDisabled:hover,.TextButtonWithImage[disabled],.TextButtonWithImage[disabled]:active,.TextButtonWithImage[disabled]:focus,.TextButtonWithImage[disabled]:hover,.TextButton[disabled],.TextButton[disabled]:active,.TextButton[disabled]:focus,.TextButton[disabled]:hover,.btn.aspNetDisabled,.btn.aspNetDisabled:active,.btn.aspNetDisabled:focus,.btn.aspNetDisabled:hover,.btn[disabled],.btn[disabled]:active,.btn[disabled]:focus,.btn[disabled]:hover,.ruButton.aspNetDisabled,.ruButton.aspNetDisabled:active,.ruButton.aspNetDisabled:focus,.ruButton.aspNetDisabled:hover,.ruButton[disabled],.ruButton[disabled]:active,.ruButton[disabled]:focus,.ruButton[disabled]:hover,fieldset[disabled] #masterHeaderActionArea a,fieldset[disabled] #masterHeaderActionArea a:active,fieldset[disabled] #masterHeaderActionArea a:focus,fieldset[disabled] #masterHeaderActionArea a:hover,fieldset[disabled] .RadGrid input.TextButton,fieldset[disabled] .RadGrid input.TextButton:active,fieldset[disabled] .RadGrid input.TextButton:focus,fieldset[disabled] .RadGrid input.TextButton:hover,fieldset[disabled] .TextButton,fieldset[disabled] .TextButton:active,fieldset[disabled] .TextButton:focus,fieldset[disabled] .TextButton:hover,fieldset[disabled] .TextButtonWithImage,fieldset[disabled] .TextButtonWithImage:active,fieldset[disabled] .TextButtonWithImage:focus,fieldset[disabled] .TextButtonWithImage:hover,fieldset[disabled] .btn,fieldset[disabled] .btn:active,fieldset[disabled] .btn:focus,fieldset[disabled] .btn:hover,fieldset[disabled] .ruButton,fieldset[disabled] .ruButton:active,fieldset[disabled] .ruButton:focus,fieldset[disabled] .ruButton:hover{background-color:#2f8aa7;border-color:transparent}
+#masterHeaderActionArea a,#masterHeaderActionArea a:visited,.PrimaryButton,.PrimaryButton:visited,.RadGrid input.PrimaryButton,.RadGrid input.PrimaryButton:visited,.SaveAndClose,.SaveAndClose:visited,.SaveAs,.SaveAs:visited,.UsePrimaryButton .TextButton,.UsePrimaryButton .TextButton:visited,.UsePrimaryButton .TextButtonWithImage,.UsePrimaryButton .TextButtonWithImage:visited{color:#fff;background-color:#009475;border-color:transparent;font-size:18px;font-weight:500;vertical-align:middle;line-height:46px}
+#masterHeaderActionArea a:active,#masterHeaderActionArea a:focus,#masterHeaderActionArea a:hover,.PrimaryButton:active,.PrimaryButton:focus,.PrimaryButton:hover,.RadGrid input.PrimaryButton:active,.RadGrid input.PrimaryButton:focus,.RadGrid input.PrimaryButton:hover,.SaveAndClose:active,.SaveAndClose:focus,.SaveAndClose:hover,.SaveAs:active,.SaveAs:focus,.SaveAs:hover,.UsePrimaryButton .TextButton:active,.UsePrimaryButton .TextButton:focus,.UsePrimaryButton .TextButton:hover,.UsePrimaryButton .TextButtonWithImage:active,.UsePrimaryButton .TextButtonWithImage:focus,.UsePrimaryButton .TextButtonWithImage:hover{color:#18a88a;background-color:#fff;border:#18a88a 2px solid}
+#masterHeaderActionArea a:active,.PrimaryButton:active,.RadGrid input.PrimaryButton:active,.SaveAndClose:active,.SaveAs:active,.UsePrimaryButton .TextButton:active,.UsePrimaryButton .TextButtonWithImage:active{background-image:none}
+#masterHeaderActionArea a.aspNetDisabled,#masterHeaderActionArea a.aspNetDisabled:active,#masterHeaderActionArea a.aspNetDisabled:focus,#masterHeaderActionArea a.aspNetDisabled:hover,#masterHeaderActionArea a[disabled],#masterHeaderActionArea a[disabled]:active,#masterHeaderActionArea a[disabled]:focus,#masterHeaderActionArea a[disabled]:hover,.PrimaryButton.aspNetDisabled,.PrimaryButton.aspNetDisabled:active,.PrimaryButton.aspNetDisabled:focus,.PrimaryButton.aspNetDisabled:hover,.PrimaryButton[disabled],.PrimaryButton[disabled]:active,.PrimaryButton[disabled]:focus,.PrimaryButton[disabled]:hover,.RadGrid input.PrimaryButton.aspNetDisabled,.RadGrid input.PrimaryButton.aspNetDisabled:active,.RadGrid input.PrimaryButton.aspNetDisabled:focus,.RadGrid input.PrimaryButton.aspNetDisabled:hover,.RadGrid input.PrimaryButton[disabled],.RadGrid input.PrimaryButton[disabled]:active,.RadGrid input.PrimaryButton[disabled]:focus,.RadGrid input.PrimaryButton[disabled]:hover,.SaveAndClose.aspNetDisabled,.SaveAndClose.aspNetDisabled:active,.SaveAndClose.aspNetDisabled:focus,.SaveAndClose.aspNetDisabled:hover,.SaveAndClose[disabled],.SaveAndClose[disabled]:active,.SaveAndClose[disabled]:focus,.SaveAndClose[disabled]:hover,.SaveAs.aspNetDisabled,.SaveAs.aspNetDisabled:active,.SaveAs.aspNetDisabled:focus,.SaveAs.aspNetDisabled:hover,.SaveAs[disabled],.SaveAs[disabled]:active,.SaveAs[disabled]:focus,.SaveAs[disabled]:hover,.UsePrimaryButton .TextButton.aspNetDisabled,.UsePrimaryButton .TextButton.aspNetDisabled:active,.UsePrimaryButton .TextButton.aspNetDisabled:focus,.UsePrimaryButton .TextButton.aspNetDisabled:hover,.UsePrimaryButton .TextButtonWithImage.aspNetDisabled,.UsePrimaryButton .TextButtonWithImage.aspNetDisabled:active,.UsePrimaryButton .TextButtonWithImage.aspNetDisabled:focus,.UsePrimaryButton .TextButtonWithImage.aspNetDisabled:hover,.UsePrimaryButton .TextButtonWithImage[disabled],.UsePrimaryButton .TextButtonWithImage[disabled]:active,.UsePrimaryButton .TextButtonWithImage[disabled]:focus,.UsePrimaryButton .TextButtonWithImage[disabled]:hover,.UsePrimaryButton .TextButton[disabled],.UsePrimaryButton .TextButton[disabled]:active,.UsePrimaryButton .TextButton[disabled]:focus,.UsePrimaryButton .TextButton[disabled]:hover,fieldset[disabled] #masterHeaderActionArea a,fieldset[disabled] #masterHeaderActionArea a:active,fieldset[disabled] #masterHeaderActionArea a:focus,fieldset[disabled] #masterHeaderActionArea a:hover,fieldset[disabled] .PrimaryButton,fieldset[disabled] .PrimaryButton:active,fieldset[disabled] .PrimaryButton:focus,fieldset[disabled] .PrimaryButton:hover,fieldset[disabled] .RadGrid input.PrimaryButton,fieldset[disabled] .RadGrid input.PrimaryButton:active,fieldset[disabled] .RadGrid input.PrimaryButton:focus,fieldset[disabled] .RadGrid input.PrimaryButton:hover,fieldset[disabled] .SaveAndClose,fieldset[disabled] .SaveAndClose:active,fieldset[disabled] .SaveAndClose:focus,fieldset[disabled] .SaveAndClose:hover,fieldset[disabled] .SaveAs,fieldset[disabled] .SaveAs:active,fieldset[disabled] .SaveAs:focus,fieldset[disabled] .SaveAs:hover,fieldset[disabled] .UsePrimaryButton .TextButton,fieldset[disabled] .UsePrimaryButton .TextButton:active,fieldset[disabled] .UsePrimaryButton .TextButton:focus,fieldset[disabled] .UsePrimaryButton .TextButton:hover,fieldset[disabled] .UsePrimaryButton .TextButtonWithImage,fieldset[disabled] .UsePrimaryButton .TextButtonWithImage:active,fieldset[disabled] .UsePrimaryButton .TextButtonWithImage:focus,fieldset[disabled] .UsePrimaryButton .TextButtonWithImage:hover{background-color:#959ca1;border-color:transparent}
+.PrimaryButton{border-width:2px;min-height:60px;border-radius:35px;font-size:18px;letter-spacing:4px}
+.PrimaryButton{padding:6px 28px}
+.nav-auxiliary .nav-aux-button a:hover,.nav-auxiliary a.auth-link:hover{text-decoration:none}
+.nav-auxiliary a:hover{text-decoration:underline}
+.PrimaryButton[disabled]{max-height:72px;line-height:36px}
+.nav-auxiliary a.auth-link,.nav-auxiliary a.auth-link:visited,.whiteButton{color:#007794;background:#fff;padding:5px 28px;vertical-align:middle;border:1px solid transparent}
+.nav-auxiliary .nav-aux-account>a,.nav-auxiliary .nav-aux-account>a:visited{border:1px solid transparent;color:#007794;background:#fff}
+.nav-auxiliary .nav-aux-account>a:hover,a.auth-link:hover{background:#fff;color:#0b9f80;border:1px solid rgba(0,0,0,.17)}
+.nav-auxiliary .nav-aux-account>a,.whiteButton,a.auth-link{border:1px solid transparent}
+.TextButton.PrimaryButton.whiteButton,.TextButton.whiteButton,.subscribe{box-shadow:3px 3px 0 0 rgba(0,0,0,.17);border:1px solid transparent;color:#007794;background:#fff}
+.TextButton.PrimaryButton.whiteButton:hover,.TextButton.whiteButton:hover,.subscribe:hover{background:#80caba;box-shadow:6px 6px 0 0 rgba(0,0,0,.17);border:1px solid rgba(0,0,0,.17);color:#fff}
+.crefcHeader{height:100%;box-shadow:0 2px 1px 0 rgba(0,0,0,.4);width:100%}
+#informz-frame{padding-top:25px}
+.nav-auxiliary .nav-aux-account .nav-text,.nav-auxiliary .nav-aux-cart .nav-text{padding-left:0}
+.blueBackground .h3:after,.blueBackground h3:after,.greenBackground .h3:after,.greenBackground h3:after,.searchControlBox h2.PanelTitle:after,.tealBackground .h3:after,.tealBackground h3:after{content:'';width:90px;height:4px;background:rgba(255,255,255,.5);position:relative;display:block;margin:auto;margin-top:25px}
+.searchControlBox h2.PanelTitle:after{background:rgba(0,0,0,.5)}
+.searchControlBox h2.PanelTitle{color:#455660}
+#informz-frame{min-height:185px}
+.CommandBar{margin:0;padding-top:0}
+a.SurfEdit{font-size:0!important}
+.grayBox h3{text-transform:uppercase;font-weight:600;letter-spacing:2px}
+.grayBox ul{margin:0;padding-left:1em}
+.resourcesList ul{max-width:100%;overflow-x:hidden;margin:0;padding-left:0;position:relative}
+.grayBox ul li{text-indent:-2em;margin-left:1em}
+.resourcesList ul li:nth-child(even) a{display:inline-block;height:100%;background:#eee;padding:5px 1em}
+.resourcesList ul li:nth-child(edd) a{display:block;width:100%;height:100%;background:0 0;padding:5px 5px 5px 1em}
+.resourcesList ul{padding-top:15px}
+.resourcesList ul li:nth-child(odd) a{padding:5px 5px 5px 1em}
+.bigButtonMenu .BigButtonWrapper,.grayBackground,.grayBox{background:#eee}
+.EventSummary{background:0 0}
+.BigButtonWrapper{padding:0 0 15px 0}
+.grayBox{padding:50px 20px;font-family:montserrat,sans-serif;font-size:16px;line-height:26px}
+.grayBox li,.resourcesList li{list-style:none;line-height:30px;padding-bottom:15px;display:inline-block;vertical-align:text-bottom}
+.grayBox a,.grayBox a:visited,.resourcesList a,.resourcesList a:visited{color:#455660}
+.grayBackground a[href$=".pdf"]:after,.grayBox a[href$=".pdf"]:after,.resourcesList a[href$=".pdf"]:after, a.pdfDocIcon:after{content:' - View PDF';color:#007794}
+.grayBackground a[href$=".pdf"]:before,.grayBox a:before,.resourcesList a:before{display:inline-block;content:'';height:34px;display:inline-block;width:0}
+.grayBackground a.TextButton:before,.grayBox a.TextButton:before,.resourcesList a.TextButton:before{content:none}
+.grayBackground a[href$=".pdf"]:before,.grayBox a[href$=".pdf"]:before, .resourcesList a[href$=".pdf"]:before, a.pdfDocIcon:before{background:url(../images/cre_icon_document_pdf_%402x.png);vertical-align:middle;content:'';background-repeat:no-repeat;background-size:contain;width:2em}
+.pdfDocIcon:before{background:url(../images/cre_icon_document_pdf_%402x.png);vertical-align:middle;content:'';height:34px;display:inline-block;background-repeat:no-repeat;background-size:contain;width:2em}
+.docDocIcon:before,.grayBox a[href$=".doc"]:before,.grayBox li a[href$=".docx"]:before,.resourcesList a[href$=".doc"]:before,.resourcesList li a[href$=".docx"]:before{background:url(../images/cre_icon_document_doc_%402x.png);display:inline-block;vertical-align:middle;content:'';height:34px;display:inline-block;background-repeat:no-repeat;background-size:contain;width:2em}
+.grayBox a[href$=".xls"]:before,.grayBox li a[href$=".xlsx"]:before,.resourcesList a[href$=".xls"]:before,.resourcesList li a[href$=".xlsx"]:before,.xlsDocIcon:before{background:url(../images/cre_icon_document_xls_%402x.png);display:inline-block;vertical-align:middle;content:'';height:34px;display:inline-block;background-repeat:no-repeat;background-size:contain;width:2em}
+.grayBox a.irpDocIcon:before,.resourcesList a.irpDocIcon:before{background:url(../images/cre_icon_document_irp_2x.png);display:inline-block;vertical-align:middle;content:'';height:34px;display:inline-block;background-repeat:no-repeat;background-size:contain;width:2em}
+.grayBox a.currentDocIcon:before,.resourcesList a.currentDocIcon:before{background:url(../images/cre_icon_document_current_%402x.png);display:inline-block;vertical-align:middle;content:'';height:34px;display:inline-block;background-repeat:no-repeat;background-size:contain;width:2em}
+.resourcesList ul li{width:100%}
+.resourcesList ul li:nth-child(odd){margin-left:1em;text-indent:-1em;padding-right:1em}
+.resourcesList ul:not([class]) li:not([class]):before{content:none}
+.RadGrid_MetroTouch .rgHeader,.RadGrid_MetroTouch .rgHeader a,.RadGrid_MetroTouch .rgHeaderWrapper,.RadGrid_MetroTouch th.rgResizeCol{color:#fff!important;background:#004894!important;font-family:montserrat,sans-serif;font-weight:600;}
+.docDownloadPanel a:after{content:'Download Document';font-size:22px;display:block}
+.docDownloadPanel a{font-size:0!important}
+span.docDescription,span.docIssue{display:inline-block}
+.docHeaderPanel{padding-top:35px;font-family:montserrat;font-size:18px}
+.RadGrid.RadGrid_Metro .rgMasterTable,.RadGrid.RadGrid_MetroTouch .rgMasterTable{max-width:calc(100vw - 30px);margin:auto;overflow-x:scroll}
+@media (min-width:768px){
+	.twoColumnList ul{column-count:2}
+.AccordionZone .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsLink, .AccordionZone .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsUL .rtsLink {
+    padding: 6px;
+}
+	section.homepageSlider.slider div{max-height:360px;overflow-y:hidden}
+	.EventSummary .Description{padding:0}
+	.searchControlBox .FilterPanel .PanelField{float:left;clear:right;width:40%;padding-top:.4em;padding-bottom:.4em;padding-right:15px}
+	.searchControlBox .rgMasterTable{text-align:left}
+	.searchControlBox .rgMasterTable .PanelField{float:unset}
+	.SocialShare{font-family:montserrat,sans-serif;font-weight:600}
+	#masterLogoArea{padding-top:15px}
+	.rgPager{font-size:80%}
+	.NextPrevNumericAndAdvanced{border:1px solid #d5d5d5!important}
+	[id$=NewSocialShareCommon] .PanelBody,[id$=NewSocialShareCommon] .panel-body{padding:0}
+	[id$=NewSocialShareCommon] .StandardPanel,[id$=NewSocialShareCommon] .panel{border:0}
+	.hpRow .col-sm-4,div#ctl01_SubNavPanel{border-left:1px solid #c4c3bd;min-height:150px}
+	.sshLinkItem .sshCustomIcon,.sshLinkItem .sshIcon,.sshLinkItem .sshText{line-height:50px}
+	.RadSocialShare.RadSocialShare_Default.SmallButtons [id$=NewSocialShareCommon]{padding:0;margin:0;background:rgba(255,255,255,.7);opacity:.7;-moz-transition:opacity .7s ease-in-out;-o-transition:opacity .7s ease-in-out;-ms-transition:opacity .7s ease-in-out}
+	.sshLinkItem .sshMailTo,.sshLinkItem .sshShareOnTwitter{background-color:#fff}
+	[id$=NewSocialShareCommon]:hover{opacity:1;border:3px solid #009475}
+	[id$=NewSocialShareCommon]:hover .sshContent{background:#fff;opacity:1}
+	[id$=NewSocialShareCommon] .RadSocialShare{padding:50px 0 0;margin:0}
+	.sshIcon,.sshListItem{margin:0!important;padding:0!important}
+	.sshIcon.sshCompactButton.sshCustomIcon.sshCustomCompactButton{background:#fff}
+	.sshIcon.sshCompactButton.sshCustomIcon.sshCustomCompactButton:before{content:'\f141';margin:auto;text-align:center;font-size:30px;font-family:fontawesome;position:relative;top:6px}
+	.sshLinkItem .sshMailTo:before,.sshLinkItem .sshShareOnTwitter:before{margin:auto;text-align:center;font-family:fontawesome;position:relative;top:6px}
+	.sshLinkItem .sshShareOnTwitter:before{content:'\f099';font-size:30px}
+	.sshLinkItem .sshMailTo:before{content:'\f003';font-size:27px}
+	div[id$=NewSocialShareCommon] .sshLinkItem .sshLinkedIn:hover{color:#fff}
+	.PanelFieldLabel.SocialShare,[id$=NewSocialShareCommon]:hover .PanelFieldLabel.SocialShare{margin-right:-50px;padding:7px 0 0!important;text-transform:uppercase;font-size:65%;line-height:13px;width:50px;height:50px;text-align:center}
+	.PanelFieldLabel.SocialShare{background:#fff}
+	[id$=NewSocialShareCommon]:hover .PanelFieldLabel.SocialShare{background:#009475;color:#fff}
+	.sshListItem{display:block!important}
+	.RadSocialShare.LargeButtons .sshCustomIcon,.RadSocialShare.MediumButtons .sshCustomIcon,.RadSocialShare.SmallButtons .sshCustomIcon{background-image:none;width:50px;height:50px;background:#fff}
+	.sshLinkItem .sshShareOnFacebook{background-color:#fff}
+	.sshLinkItem .sshShareOnFacebook:before{content:'\f09a';margin:auto;text-align:center;font-size:30px;font-family:fontawesome;position:relative;color:#3b5998;top:6px;top: 8px;
+    display: block;}
+	.sshLinkItem .sshShareOnTwitter:before{color:#1da1f2;top: 8px;
+    display: block;}
+	.sshIcon.sshCompactButton.sshCustomIcon.sshCustomCompactButton:before{color:#007f68;top: 8px;
+    display: block;}
+	.sshLinkItem .sshMailTo:before{color:#acaaa5;top: 8px;
+    display: block;}
+	a.sshLinkItem:hover span.sshIcon.sshShareOnFacebook.sshCustomIcon.sshCustomShareOnFacebook{background-color:#3b5998}
+	a.sshLinkItem:hover span.sshIcon.sshShareOnTwitter.sshCustomIcon.sshCustomShareOnTwitter{background-color:#1da1f2}
+	a.sshLinkItem:hover span.sshIcon.sshMailTo.sshCustomIcon.sshCustomMailTo{background-color:#acaaa5}
+	a.sshLinkItem:hover span.sshIcon.sshCompactButton.sshCustomIcon.sshCustomCompactButton{background-color:#007f68}
+	.sshLinkItem:hover span.sshIcon.sshShareOnFacebook.sshCustomIcon.sshCustomShareOnFacebook:before,.sshLinkItem:hover span.sshIcon.sshShareOnTwitter.sshCustomIcon.sshCustomShareOnTwitter:before,.sshListItem:hover span.sshIcon.sshCompactButton.sshCustomIcon.sshCustomCompactButton:before,.sshListItem:hover span.sshIcon.sshMailTo.sshCustomIcon.sshCustomMailTo:before{color:#fff}
+	.sshLinkItem:hover .sshCustomIcon{color:#fff;opacity:1;filter:Alpha(opacity=100)}
+	.sshLinkItem .sshCustomIcon{opacity:1;filter:Alpha(opacity=100)}
+	[id$=NewSocialShareCommon],[id$=SocialShareCommon]{bottom:25px;border:3px solid transparent;position:fixed;z-index:+2;right:15px;opacity:.5}
+	.rwTable .sshLinkItem .sshCustomIcon,.rwTable .sshLinkItem .sshIcon,.rwTable .sshLinkItem .sshText{line-height:inherit}
+	#ctl01_TemplateBody_WebPartManager1_gwpciNewSocialShareCommon_ciNewSocialShareCommon__Body .RadSocialShare{padding:50px 0 0;margin:0}
+	a.sshLinkItem:hover span.sshIcon.sshLinkedIn,sshCustomIcon.sshCustomLinkedIn{background-color:#0077b5}
+
+	.sshLinkItem:hover .sshIcon.sshLinkedIn:before{color:#fff}
+	.sshLinkItem .sshLinkedIn:before{content:'\f0e1';margin:auto;text-align:left;font-size:30px;font-family:fontawesome;position:relative;left:12px;top:6px;color:#3b5998}
+		.sshLinkItem .sshIcon.sshLinkedIn:before {
+    color: #0077b5;
+    top: 8px;
+    display: block;
+    position: relative;
+    left: 0px;
+}
+	div[id$=share] .sshLinkItem .sshLinkedIn{background-color:#fff;background-image:none!important}
+	.SliderPage1,.container,.header-container{max-width:1200px;margin:auto}
+	#ste_container_ciBannerText>div:first-child{padding:5px 30px 20px 30px;background:rgba(255,255,255,.85)}
+	.nav-auxiliary .nav-aux-account:hover .nav-text:before{background-image:none;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+	.nav-auxiliary .nav-aux-account:hover .nav-text:before{background-image:none;text-shadow:3px 3px 0 rgba(0,0,0,.17)}
+	.nav-auxiliary .nav-aux-cart:hover .nav-text:before{background-image:none;text-shadow:6px 6px 0 rgba(0,0,0,.17)}
+	.nav-auxiliary .nav-aux-account>a{color:#007794;display:inline;padding:5px 28px}
+	.nav-aux-account>a:before{vertical-align:middle;content:'\f213';font-family:ionicons;font-size:20px;padding-right:5px;color:#959ca1}
+	.mobileOnly{display:none!important}
+	.nav-auxiliary .NavigationListItem.mobileOnly{display:inline-block!important}
+	.RadMenu.RadMenu_Austin .rsmLevel .rsmLink,.RadMenu.RadMenu_Austin .rsmLevel.rmLink{padding:0 25px;line-height:36px;font-size:18px;display:block;height:100%;width:100%}
+	.RadMenu.RadMenu_Austin .rsmLink,.RadMenu.RadMenu_Austin .rsmOneLevel .rsmItem .rsmLink{padding:0 25px}
+	.RadMenu_Austin .rmSlide .rmLink.rmFocused,.RadMenu_Austin .rmSlide .rmLink:hover,.RadMenu_Austin .rmSlide .rsmLink.rmFocused,.RadMenu_Austin .rmSlide .rsmLink:hover,.RadMenu_Austin .rmSlide .rsmTwoLevels>.rsmItem>.rsmLink.rmFocused,.RadMenu_Austin .rmSlide .rsmTwoLevels>.rsmItem>.rsmLink:hover{background-color:transparent;color:#fff}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmExpanded,.RadMenu.RadMenu_Austin .rmRootLink.rmFocused,.RadMenu.RadMenu_Austin .rmRootLink:hover{background-color:#eee;color:#455660}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmSelected{color:#455660;background-color:#eee}
+	.RadMenu.RadMenu_Austin .rsmLevel .menuButton .rmLink,.RadMenu.RadMenu_Austin .rsmLevel .menuButton .rsmLink,.RadMenu.RadMenu_Austin .rsmLevel .menuButtonrsmSelected .rmLink,.RadMenu.RadMenu_Austin .rsmLevel .menuButtonrsmSelected .rsmLink{height:35px;width:auto}
+	.header{padding:0}
+	.SliderPage1,.container,.header-container{max-width:1200px}
+	#PageBanner{max-height:250px;height:125px;font-size:20px;font-weight:400;font-style:italic;position:relative;overflow:hidden;width:100%;text-align:center;background:#eee;max-width:none;background-size:cover;background-position:center;background-repeat:no-repeat;margin:auto}
+	#PageBanner h1{font-style:normal;text-align:left;margin-bottom:-15px;padding-bottom:0}
+	.RadMenu.RadMenu_Austin .rsmItem{padding:0;height:36px}
+	.RadMenu.RadMenu_Austin .rsmItem.menuButton,.RadMenu.RadMenu_Austin .rsmItem.menuButtonrsmSelected{padding:4px;height:60px}
+	.rmResponsive .rmSlide .rmFocused>.rmLink,.rmResponsive .rmSlide .rmSelected>.rmLink,.rmResponsive .rmSlide .rsmSelected>.rsmLink,.rmResponsive .rmSlide .rsmTwoLevels>.rsmItem.rsmSelected>.rsmLink{background-color:transparent;color:#455660;font-weight:400}
+	li.rsmItem:hover{box-shadow:0 3px 0 0 rgba(0,0,0,.27);background:#18a88a}
+	li.rsmItem.menuButton{text-transform:uppercase;box-shadow:none;background:0 0}
+	.rmResponsive .rmSlide .rsmLink:hover{color:#fff}
+	.rmLink.rmRootLink{height:85px}
+	.nav-auxiliary .obo-container a{font-size:12px}
+	.obo-container{float:left;font-size:12px;padding-top:8px;text-transform:none;color:#fff;font-weight:300;font-family:montserrat,sans-serif}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmExpand:hover{background:#eee}
+	#ft{background:#455660;background:-moz-linear-gradient(left,#455660 50%,#364751 50%);background:-webkit-linear-gradient(left,#455660 50%,#364751 50%);background:linear-gradient(to right,#455660 50%,#364751 50%)}
+	#ft .col-sm-9{background:#455660;height:293px}
+	.footerAddress1>div{padding-top:17px}
+	.footerAddress2>div{padding-top:8px}
+	#ft>.container{overflow:hidden;height:210px}
+	.RadMenu.RadMenu_Austin .rmGroup{background-color:rgba(255,255,255,.91);box-shadow:3px 3px 0 0 rgba(0,0,0,.17)}
+	.nav-primary{padding-top:18px}
+	.RadMenu_Austin .rmSlide .rmSelected>.rmLink,.RadMenu_Austin .rmSlide .rsmSelected>.rsmLink,.RadMenu_Austin .rmSlide .rsmTwoLevels>.rsmItem.rsmSelected>.rsmLink{background-color:transparent;color:#455660}
+	li.rsmItem.rsmSelected:hover a.rsmLink{color:#fff}
+	.RadMenu.RadMenu_Austin .rmLink,.RadMenu.RadMenu_Austin .rsmLink{color:#455660}
+	.RadMenu.RadMenu_Austin .rmFocused>.rmRootLink,.RadMenu.RadMenu_Austin .rmSelected>.rmRootLink{color:#0b9f80;background-color:#eee}
+	.rmExpanded .rmLink.rmRootLink.rmExpand.rmExpandDown{background:#eee}
+	.RadMenu.RadMenu_Austin .rmRootLink:hover:after,.rmExpanded .rmLink.rmRootLink.rmExpand.rmExpandDown:after{content:'';width:100%;height:2px;background:#0b9f80;position:absolute;bottom:40px;left:14px;width:calc(100% - 26px)}
+	.RadMenu.RadMenu_Austin .rmExpanded>.rmRootLink,.RadMenu.RadMenu_Austin .rmRootLink:focus,.RadMenu.RadMenu_Austin .rmRootLink:hover{background-color:transparent;color:#0b9f80}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem>.rmLink{text-transform:uppercase;font-size:24px;font-weight:300;letter-spacing:-1.5px}
+	.nav-auxiliary a,.nav-auxiliary a:visited{text-transform:uppercase;color:#fff;font-family:montserrat,sans-serif;font-weight:500;font-size:18px}
+}
+@media (max-width:767px){
+	
+	
+	.row.greenBackground:before {
+    left: 0;
+}
+
+.row.blueBackground:before {
+    left: 0;
+}
+
+.row.tealBackground:before {
+    left: 0;
+}
+	
+	.sliderCaption{width:calc(100vw - 30px)}
+	.navbar-toggle{background:0 0}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmSelected{font-weight:800;color:#18a889;background:0 0;text-decoration:underline}
+	#ctl01_LoginStatus1{border:0;box-shadow:none;border-radius:12px;display:inline-block}
+	.meetingDetail{width:calc(100% - 125px);display:inline-block;float:left}
+	.miniCalendar a.TextButton.learnMore:after,.miniCalendar a.TextButton.registerButton:after{font-size:22px}
+	.multiColumn5 .meetingBlock{width:calc(50% - 20px);float:left;margin:5px 10px}
+	.slick-slider{max-width:calc(100vw - 30px)!important}
+	.rmResponsive .rmSlide .rmFocused>.rmLink,.rmResponsive .rmSlide .rmSelected>.rmLink,.rmResponsive .rmSlide .rsmSelected>.rsmLink,.rmResponsive .rmSlide .rsmTwoLevels>.rsmItem.rsmSelected>.rsmLink{background-color:transparent;color:#455660;font-size:20px;line-height:34px;font-weight:400}
+	.PageTitle,.h1,h1{font-size:54px}
+	.pagePanelTitle{min-height:96px;max-height:96px}
+	.SliderPage1,.container,.header-container{max-width:100vw;overflow:hidden;margin:auto}
+	.slick-next,.slick-prev{display:none!important}
+	body{letter-spacing:-.01em}
+	#ft{letter-spacing:0}
+	.nav-auxiliary .nav-aux-account>a:hover{text-shadow:none;border-color:transparent}
+	.nav-aux-account>a:hover{box-shadow:none}
+	.header-search{background:#004894}
+	.RadMenu.RadMenu_Austin .rmExpanded>.rmRootLink,.RadMenu.RadMenu_Austin .rmRootLink:focus,.RadMenu.RadMenu_Austin .rmRootLink:hover{color:#445660}
+	.nav-auxiliary .NavigationUnorderedList{float:right}
+	button.navbar-toggle[data-target="#search-collapse"]{float:left}
+	.navbar-toggle .icon-search:before{top:-4px}
+	.nav-auxiliary .nav-aux-button .NavigationLink{padding:0}
+	.navbar-toggle .icon-search{width:0}
+	li.rmItem.mobileAfter{margin-bottom:20px}
+	.nav-auxiliary .nav-aux-account .nav-text,.nav-auxiliary .nav-aux-cart .nav-text{padding-left:0!important}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem.mobileOnly>.rmLink{color:#007794;font-weight:600;font-size:18px}
+	li.rmItem.mobileAfter+.mobileOnly a.rmLink.rmRootLink:before{content:'';height:4px;width:86px;background:#499eb3;position:absolute;float:unset;left:calc(50% - 43px);top:-10px}
+	ul.rmRootGroup.rmToggleHandles.rmHorizontal:after{content:'';width:100%;height:100%;background:#eee;position:absolute}
+	li.rsmItem:hover{box-shadow:0 3px 0 0 rgba(0,0,0,.27);background:#18a88a}
+	.rmResponsive .rmSlide .rsmLink:hover{color:#fff}
+	.RadMenu.RadMenu_Austin .rmLink,.RadMenu.RadMenu_Austin .rsmLink{color:#455660}
+	.nav-auxiliary .nav-aux-account .nav-text{font-size:0}
+	a.auth-link{padding:5px 25px;background:#fff;color:#007749}
+	.nav-aux-account>a{font-size:18px!important;font-family:montserrat,sans-serif;background-color:transparent;letter-spacing:0;border:0;box-shadow:none;box-shadow:none}
+	.rmResponsive .rmSlide{position:static}
+	.rmToggle span.rmIcon{position:relative;left:-15px}
+	.rmResponsive .rmSlide .rmLink,.rmResponsive .rmSlide .rsmLink{color:#455660}
+	.RadMenu.RadMenu_Austin .rmExpanded>.rmRootLink,.RadMenu.RadMenu_Austin .rmRootLink:focus,.RadMenu.RadMenu_Austin .rmRootLink:hover{background-color:transparent}
+	.auth-link-container{padding:10px 15px;text-align:center;border-bottom:0;background:#eee}
+	.RadMenu.RadMenu_Austin .rmExpanded>.rmLink .rmToggle>.rmIcon,.RadMenu.RadMenu_Austin .rmFocused>.rmLink.rmRootLink .rmToggle>.rmIcon,.RadMenu.RadMenu_Austin .rmLink:focus .rmToggle>.rmIcon,.RadMenu.RadMenu_Austin .rmLink:hover .rmToggle>.rmIcon,.RadMenu.RadMenu_Austin .rmSelected>.rmLink .rmToggle>.rmIcon,.RadMenu.RadMenu_Austin .rmSlide .rmLink .rmToggle>.rmIcon{background-position:unset}
+	ul.rsmList.rsmLevel.rsmOneLevel{text-align:center}
+	.RadMenu.RadMenu_Austin .rmGroup{background-color:#eee}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem.rmSelected>.rmLink,.rmExpanded .rmLink.rmRootLink.rmExpand.rmExpandDown{font-weight:800;color:#18a889;text-decoration:underline;background:0 0}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem>.rmLink{font-weight:800}
+	.navbar-collapse{background-color:#fff}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem>.rmLink{text-align:center;font-size:36px;padding:10px 0;letter-spacing:4px}
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem.rmSelected>.rmLink{text-align:center;font-size:36px;background:0 0}
+	.nav-auxiliary .nav-aux-button .NavigationLink{margin-top:0}
+	.nav-auxiliary .nav-aux-cart .nav-text:before{vertical-align:middle;font-weight:700;content:'\f3f7';font-family:ionicons;font-size:36px;color:#fff;display:block;position:absolute;line-height:26px;text-shadow:none}
+	.nav-auxiliary .nav-aux-account .nav-text:before{vertical-align:middle;font-weight:700;content:'\f213';font-family:ionicons;font-size:36px;color:#fff;display:block;position:absolute;line-height:26px;text-shadow:none}
+	.nav-auxiliary .nav-aux-button .NavigationLink{background-color:transparent}
+	#navbar-collapse{position:absolute;width:100%;z-index:10001;top:45px}
+	#search-collapse{position:absolute;width:100%;z-index:+1;top:45px}
+	.nav-auxiliary .NavigationUnorderedList li{display:none!important}
+	.nav-auxiliary .NavigationUnorderedList li.nav-aux-account,.nav-auxiliary .NavigationUnorderedList li.nav-aux-cart{display:block!important;float:left}
+	.header-logo-container{float:unset;text-align:center}
+	.navbar-header{height:45px;padding-top:8px;padding-right:30px}
+	button.navbar-toggle[data-target="#search-collapse"]{float:right;padding-right:25px}
+	button.navbar-toggle[data-target="#navbar-collapse"]{position:absolute;left:0;top:0}
+	button.navbar-toggle.collapsed{float:right;padding-right:25px;top:0}
+	button[data-target="#navbar-collapse"] .icon-bar{display:none}
+	button.navbar-toggle[data-target="#navbar-collapse"]:after{vertical-align:middle;font-weight:400;content:'\f129';font-family:ionicons;font-size:36px;color:#fff;display:block;line-height:14px;text-shadow:none;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+	button.navbar-toggle.collapsed[data-target="#navbar-collapse"]:after{content:'\f20d';-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+	.navbar-toggle.collapsed,.navbar-toggle:focus,.navbar-toggle:hover{background-color:transparent}
+	.footerAddress1:before,.footerAddress2:before{content:'';height:90px;width:2px;background:rgba(255,255,255,.2);position:absolute;left:49px}
+	.footerMenu{text-align:left;padding-left:45px}
+	.footerCopyright{text-align:left;padding-left:52px}
+	.footerAddress1,.footerAddress2{padding-top:30px;margin:0;padding-left:50px}
+	.footerAddress2{margin-bottom:35px}
+	.footerLogo img{max-width:232px}
+	.footerCommunications{text-align:center;background:#364751;padding:65px 0 50px 0}
+}
+@media (max-width:1156px){
+	#ste_container_ciBannerText{margin-left:15px}
+}
+@media (min-width:1065px) and (max-width:1169px){
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem>.rmLink{-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+}
+@media (min-width:1201px){
+.row.blueBackground, .row.greenBackground, .row.tealBackground {
+    left: calc(-50vw + 50% + 30px); position:relative;
+}
+	.footerCommunications{padding:65px 15px 100% 40px}
+}
+@media (max-width:991px){
+	.obo-container{display:none!important}
+}
+@media (min-width:768px) and (max-width:1126px){
+	#ft a.TextButton.whiteButton{padding:2px 8px;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+	.footerCommunications{padding:65px 15px 100% 20px;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+}
+@media (min-width:768px) and (max-width:860px){
+	.RadMenu.RadMenu_Austin .rmRootGroup>.rmItem>.rmLink{-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+	.multiColumn5 .meetingBlock{width:calc(33% - 20px);float:left;margin:5px 10px}
+}
+@media (max-width:1169px){
+	.navbar-header{padding-right:30px;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
+}
+.grayBox.option2{padding:40px 20px 20px 20px}
+@media (max-width:575px){
+	.SearchField *{vertical-align:middle;margin-bottom:10px}
+	.pagePanelFrame{font-size:17px}
+	.eventIconDateCity{font-size:15px}
+	.multiColumn5 .meetingBlock{width:100%}
+	.slick-slider{max-width:100vw!important}
+	.SearchField{padding:10px;text-align:center}
+	#ste_container_ciResourceCenterButton{display:none}
+	.RadGrid.RadGrid_Metro .rgMasterTable,.RadGrid.RadGrid_MetroTouch .rgMasterTable{padding-top:150px}
+	.SearchResultSummary,.SearchResultSummary .ListItemTitle a{font-size:90%}
+}
+
+.noHdr thead,.noHdr .GridTitlePanel{display:none}
+.noHdr .RadGrid{border:0}
+.noHdr .rgSelectedRow{background-color:transparent!important;border-color:transparent!important;color:#000!important}
+.noHdr .rgSelectedRow td{border:0!important}
+.noHdr .rgRow{background-color:transparent!important}
+
+.ypVideo{width:50%;float:right;height:250px}
+.ypVideo iframe{width:100%;height:250px}
+@media (max-width:768px){
+  .ypVideo{width:100%}
+}
+
+/*!** Vertical CCO styles ***/
+.ccoVert .RadTabStrip{width:25%;float:left!important}
+.ccoVert [id$=_radPage]{width:calc(75% - 10px);display:block;margin-left:calc(25% + 10px)}
+.ccoVert .rtsLink{padding:0 0 0 6px!important;white-space:normal!important;text-align:left!important;text-transform:none!important}
+.ccoVert li.rtsLI{display:block;width:100%}
+.ccoVert .rtsLink .rtsOut,.ccoVert .rtsLink .rtsIn,.ccoVert .rtsLink .rtsTxt{padding:0!important}
+.ccoVert .ContentWizardDisplay{border-width:1px; padding:10px 25px;}
+.ccoVert .RadTabStrip.RadTabStrip_Metro.RadTabStripTop_Metro.RadTabStripTop.RadTabStripTop_Metro_Baseline{border-bottom:0!important}
+
+/*!** Young Professionals Committee Listing ***/
+.ypComm .rosterReadMore{position:inherit}
+@media (max-width:768px){
+	.ypComm .rosterItem{width:100%}
+}
+
+/*!** COVID-19 update override ***/
+.covid19{text-align:right;background:#009475 url(../images/COVID19BG.jpg) no-repeat center / cover;padding:50px}
+.covidDisruption{text-align:right;background:#007794 url(../images/PolicyAdvocacyResources.jpg) no-repeat center / cover;padding:25px 50px}
+.wsj{text-align:right;background:#009475 url(../images/WSJ.jpg) no-repeat center / cover;padding:50px}
+.covid19 h2,.wsj h2,.covidDisruption h2{color:#fff}
+
+/*!** Event Sponsor IQA settings ***/
+/*.crefcSponsors h2.panel-title{font-size:32px;color:#004894;border-bottom:2px solid #004894;text-transform:none}*/
+.crefcSponsors h2.panel-title{font-size:28px;color:#004894;text-transform:none}
+.crefcSponsors .evtSponsor:after{display:block;background:#ccc;height:2px;width:80%;content:'';margin:auto;clear:both}
+.crefcSponsors .evtSponsor .evtSponLogo{float:left;margin-right:10px;padding:11px;width:250px}
+.crefcSponsors .evtSpon{margin-left:260px}
+@media (max-width:768px){
+	.crefcSponsors .evtSponsor .evtSponLogo{width:100%;float:none}
+	.crefcSponsors .evtSpon{margin-left:0}
+	
+	.crefcSponsors .RadGrid.RadGrid_Metro .rgMasterTable,.crefcSponsors .RadGrid.RadGrid_MetroTouch .rgMasterTable{padding-top:0}
+}
+
+@media (max-width:890px){
+  .covid19{background-size:contain}
+}
+@media (max-width:560px){
+  .covid19{padding:0;text-align:center;position:relative;min-height:150px}
+  .covid19 .whiteButton{position:absolute;bottom:0;right:10px}
+}
+
+
+.slick-slide img {
+     display: block;
+     width: 100vw;
+     overflow-x: hidden;
+}
+
+.slick-dotted.slick-slider {margin:0;}
+/* Arrows */
+ .slick-prev, .slick-next {
+     opacity:0;
+     height: 56px;
+     width:56px;
+     -webkit-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'ionicons';
+    font-size: 56px;
+    height: 56px;
+    opacity: .5;
+    color: #004894;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nearbyEvents .slide {border-bottom:1px solid #cdcdcd}
+
+.slick-dots {
+    bottom: 0px;
+}
+
+.eventIconPanelFrame .titleDateBlock {
+    height: 145px;
+}
+
+ .nearbyEvents .slick-prev:before, .nearbyEvents .slick-next:before {
+
+     color: #004894; opacity:1;
+
+}
+ .slick-prev {
+     position: absolute;
+     z-index: +1;
+     -webkit-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+}
+ .slick-prev:before {
+     content: '\f3cf';
+}
+ [dir='rtl'] .slick-prev:before {
+     content: '\f3d1';
+}
+ .slick-next {
+     position: absolute;
+     z-index: +1;
+     -webkit-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+}
+ .slick-slider:hover .slick-prev {
+     opacity:1;
+     left: -15px;
+     -webkit-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+}
+ .slick-slider:hover .slick-next {
+     opacity:1;
+     right: -15px;
+     -webkit-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+     transition: all 0.2s ease-out;
+}
+ .slick-next:before {
+     content: '\f3d1';
+}
+ [dir='rtl'] .slick-next:before {
+     content: '\f3cf';
+}
+ .homepageSlider .slick-dots {
+     bottom: 15px;
+}
+ .slick-dots li button:before {
+     text-shadow:3px 3px 0 rgba(0,0,0,.17);
+     font-size:15px;
+     font-family:ionicons;
+     content: '\f401';
+}
+ .homepageSlider .slick-dots li button:before {
+     color: white;
+}
+ .slick-dots li.slick-active button:before {
+     content: '\f21b';
+}
+ .homepageSlider .slick-dots li.slick-active button:before {
+     color: white;
+}
+ .page-panels .slick-prev, .page-panels .slick-next {
+    top:40%;
+}
+ .slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color:#004894;
+     opacity:1;
+}
+
+
+
+ .page-panels .slick-prev, .page-panels .slick-next {
+    top:40%;
+}
+
+
+
+
+.ContentWizardDisplay .slick-slider {max-width:calc(100vw - 60px)!important;}
+
+.safari-mac .pagePanelGraphic {
+ -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);}
+ 
+ 
